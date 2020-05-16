@@ -55,10 +55,10 @@
 ##==========================================================================
 
 # The pre-processor and compiler options.
-MY_CFLAGS = `pkg-config --cflags opencv boost` -I$(SRCROOT) -I$(LIBDIR)
+MY_CFLAGS = `pkg-config --cflags gtk+-3.0` -I$(SRCROOT) -I$(LIBDIR)
 
 # The linker options.
-MY_LIBS   = `pkg-config --libs opencv boost`
+MY_LIBS   = `pkg-config --libs gtk+-3.0 `
 
 # The pre-processor options used by the cpp (man cpp for more).
 CPPFLAGS  = -Wall
