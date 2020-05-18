@@ -67,7 +67,7 @@ int main( int   argc,
     gtk_container_set_border_width (GTK_CONTAINER (window), 10);
 
     /* Creates a new button with the label "Hello World". */
-    button = gtk_button_new_with_label ("Hello World");
+    button = gtk_button_new_with_label (BUTTON_TEXT);
 
     /* When the button receives the "clicked" signal, it will call the
      * function hello() passing it NULL as its argument.  The hello()
