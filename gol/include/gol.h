@@ -5,7 +5,7 @@
 #include <coordinates.h>
 #include <SDL2/SDL.h>
 
-#define PIXEL_SIZE (10)
+#define PIXEL_SIZE (5)
 
 class Gol {
 public:

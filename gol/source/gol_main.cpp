@@ -2,6 +2,8 @@
 #include <coordinates.h>
 #include <iostream>
 #include <string>
+#include <thread>
+#include <chrono>
 #include <SDL2/SDL.h>
 
 using namespace std;
@@ -9,6 +11,8 @@ using namespace std;
 //Screen dimension constants
 #define SCREEN_WIDTH  (1280)
 #define SCREEN_HEIGHT (800)
+
+#define GOL_PERIOD_MS (50)
 
 /* ---- Private API ---- */
 SDL_Window* gWindow = NULL;     //The window we'll be rendering to
@@ -102,7 +106,10 @@ int main()
 
 	bool quit = false;
 	SDL_Event e;
+	std::chrono::time_point<std::chrono::system_clock> start, end;
+	start = std::chrono::system_clock::now();
 	do {
+		start = std::chrono::system_clock::now();
 		g.run();
 		//cout << g.to_string() << endl;
 
@@ -113,6 +120,14 @@ int main()
 
 		//Update screen
 		SDL_RenderPresent(gRenderer);
+
+		end = std::chrono::system_clock::now();
+		int elapsed_ms = std::chrono::duration_cast<std::chrono::milliseconds>
+		                 (end-start).count();
+
+		int sleep_ms = GOL_PERIOD_MS - elapsed_ms;
+		if(sleep_ms > 0)
+			std::this_thread::sleep_for(std::chrono::milliseconds(sleep_ms));
 
 		while(SDL_PollEvent(&e) != 0 ) {
 			if (e.type == SDL_QUIT) {
