@@ -9,6 +9,9 @@
 #define CURRENT_WORLD_1 false
 #define CURRENT_WORLD_2 true
 
+#define PIXEL_BLANK (1)
+#define CELL_SIZE (PIXEL_SIZE - 2*PIXEL_BLANK)
+
 Gol::Gol(unsigned int w, unsigned int h)
 {
 	width = w;
@@ -57,6 +60,22 @@ std::string Gol::to_string()
 		str+="|\n";
 	}
 	return str;
+}
+
+void Gol::paint_screen(SDL_Renderer* gRenderer)
+{
+	bool **c_world = current_world?world2:world1;
+	SDL_SetRenderDrawColor( gRenderer, 0xFF, 0x00, 0x00, 0xFF );
+	for (int i = 0; i < (int)height; i++) {
+		for (int j = 0; j < (int)width; j++) {
+			if(c_world[j][i]) {
+				SDL_Rect fillRect = { j*PIXEL_SIZE+PIXEL_BLANK,
+				                      i*PIXEL_SIZE+PIXEL_BLANK,
+				                      CELL_SIZE, CELL_SIZE};
+				SDL_RenderFillRect(gRenderer, &fillRect);
+			}
+		}
+	}
 }
 
 std::string Gol::to_hex()

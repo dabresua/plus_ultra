@@ -3,6 +3,9 @@
 
 #include <string>
 #include <coordinates.h>
+#include <SDL2/SDL.h>
+
+#define PIXEL_SIZE (10)
 
 class Gol {
 public:
@@ -11,6 +14,7 @@ public:
 	std::string to_hex();
 	void generate(int life);
 	void run();
+	void paint_screen(SDL_Renderer* gRenderer);
 
 	inline int getW()
 	{
