@@ -2,19 +2,44 @@
 #define GOL_H_INCLUDED
 
 #include <string>
+#include <coordinates.h>
 
 class Gol {
 public:
-	Gol(int w, int h);
-	int getW();
-	int getH();
-	std::string toString();
-	void set(int c, int r);
-	//void clr(int c, int r);
+	Gol(unsigned int w, unsigned int h);
+	std::string to_string();
+	std::string to_hex();
+	void generate(int life);
+	void run();
+
+	inline int getW()
+	{
+		return width;
+	}
+
+	inline int getH()
+	{
+		return height;
+	}
+
+	inline void set(Coordinates c)
+	{
+		set_or_clr(c, true);
+	}
+
+	inline void clr(Coordinates c)
+	{
+		set_or_clr(c, false);
+	}
 
 private:
 	unsigned int width, height;
-	int *world;
+	bool **world1, **world2;
+	bool current_world;
+	void set_or_clr(Coordinates c, bool set);
+	void inc_life(bool **c_world, unsigned int c, unsigned int r,
+	              unsigned int *life);
+	void gc();
 };
 
 #endif /* GOL_H_INCLUDED */

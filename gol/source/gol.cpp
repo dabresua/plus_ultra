@@ -1,43 +1,159 @@
 #include <gol.h>
+#include <iostream>
+#include <sstream>
+#include <cstring>
 
 #define GOL_DEFAULT_W 10
 #define GOL_DEFAULT_H 10
 
-Gol::Gol(int w, int h)
+#define CURRENT_WORLD_1 false
+#define CURRENT_WORLD_2 true
+
+Gol::Gol(unsigned int w, unsigned int h)
 {
 	width = w;
 	height = h;
-	world = new int[w*h/sizeof(int)];
+	std::cout << "[" << width << "," << height << "]" << '\n';
+	world1 = new bool*[width];
+	world2 = new bool*[width];
+	for(unsigned int i = 0; i < width; i++) {
+		world1[i] = new bool[height];
+		world2[i] = new bool[height];
+	}
+	current_world = CURRENT_WORLD_1;
 }
 
-int Gol::getW()
+void Gol::gc()
 {
-	return width;
+	for(unsigned int i = 0; i < height; i++) {
+		delete[] world1[i];
+		delete[] world2[i];
+	}
+	delete[] world1;
+	delete[] world2;
 }
 
-int Gol::getH()
+void Gol::set_or_clr(Coordinates c, bool set)
 {
-	return height;
+	if(c.x > width || c.y > height) {
+		std::cerr << "Index excedes size" << '\n';
+		return;
+	}
+	if(current_world == CURRENT_WORLD_1) {
+		world1[c.x][c.y] = set;
+	} else {
+		world2[c.x][c.y] = set;
+	}
 }
 
-void Gol::set(int c, int r)
-{
-	int pos = (c*r)/sizeof(int);
-	int loc = (c*r)%sizeof(int);
-	int masc = 1 << loc;
-	world[pos] |= masc;
-}
-
-std::string Gol::toString()
+std::string Gol::to_string()
 {
 	std::string str = "";
+	bool **c_world = current_world?world2:world1;
 	for (size_t i = 0; i < height; i++) {
 		for (size_t j = 0; j < width; j++) {
-			int pos = (i*j)/sizeof(int);
-			int loc = (i*j)%sizeof(int);
-			int masc = 1 << loc;
-			str+= ((world[pos] & masc) > 0)?"x":" ";
+			str+= c_world[j][i]?"x":" ";
 		}
+		str+="|\n";
 	}
 	return str;
+}
+
+std::string Gol::to_hex()
+{
+	std::string str = "";
+	/* TODO */
+	return str;
+}
+
+void Gol::generate(int life)
+{
+	bool **c_world = current_world?world2:world1;
+	for (size_t i = 0; i < height; i++) {
+		for (size_t j = 0; j < width; j++) {
+			/* TODO: use <random> API */
+			if ((std::rand() % 100) < life) {
+				c_world[j][i] = true;
+			} else {
+				c_world[j][i] = false;
+			}
+		}
+	}
+}
+
+void Gol::inc_life(bool **c_world, unsigned int c, unsigned int r,
+                   unsigned int *life)
+{
+	if(c_world[c][r])
+		(*life)++;
+}
+
+void Gol::run()
+{
+	bool **c_world = current_world?world2:world1;
+	bool **c_world2 = current_world?world1:world2;
+	for (size_t r = 0; r < height; r++) {
+		for (size_t c = 0; c < width; c++) {
+			//std::cout << "[" << c << "," << r << "] is " << get_status(r, c) << '\n';
+			unsigned int cell_r = r;
+			unsigned int cell_c = c;
+			bool lives = c_world[c][r];
+			unsigned int life = 0;
+			if(r > 0) {
+				r--;
+				if(c > 0) {
+					c--;
+					inc_life(c_world, c, r, &life);
+					c++;
+				}
+				inc_life(c_world, c, r, &life);
+				if(c < (width - 1)) {
+					c++;
+					inc_life(c_world, c, r, &life);
+				}
+				c = cell_c;
+				r = cell_r;
+			}
+			if(c > 0) {
+				c--;
+				inc_life(c_world, c, r, &life);
+				c++;
+			}
+			if(c < (width - 1)) {
+				c++;
+				inc_life(c_world, c, r, &life);
+			}
+			c = cell_c;
+			if(r < (height - 1) ) {
+				r++;
+				if(c > 0) {
+					c--;
+					inc_life(c_world, c, r, &life);
+					c++;
+				}
+				inc_life(c_world, c, r, &life);
+				if(c < (width - 1)) {
+					c++;
+					inc_life(c_world, c, r, &life);
+				}
+				c = cell_c;
+				r = cell_r;
+			}
+			//std::cout << "cell " << lives << " [" << c << "," << r << "] is " << life << '\n';
+			if(lives) {
+				if(life != 2 && life != 3) {
+					c_world2[c][r] = false;
+				} else {
+					c_world2[c][r] = true;
+				}
+			} else {
+				if(life == 3) {
+					c_world2[c][r] = true;
+				} else {
+					c_world2[c][r] = false;
+				}
+			}
+		}
+	}
+	current_world = !current_world;
 }
