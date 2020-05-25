@@ -9,7 +9,7 @@
 #define CURRENT_WORLD_1 false
 #define CURRENT_WORLD_2 true
 
-#define PIXEL_BLANK (1)
+#define PIXEL_BLANK (0)
 #define CELL_SIZE (PIXEL_SIZE - 2*PIXEL_BLANK)
 
 Gol::Gol(unsigned int w, unsigned int h)

@@ -5,7 +5,7 @@
 #include <coordinates.h>
 #include <SDL2/SDL.h>
 
-#define PIXEL_SIZE (5)
+#define PIXEL_SIZE (1)
 
 class Gol {
 public:
@@ -15,6 +15,7 @@ public:
 	void generate(int life);
 	void run();
 	void paint_screen(SDL_Renderer* gRenderer);
+	void gc();
 
 	inline int getW()
 	{
@@ -43,7 +44,6 @@ private:
 	void set_or_clr(Coordinates c, bool set);
 	void inc_life(bool **c_world, unsigned int c, unsigned int r,
 	              unsigned int *life);
-	void gc();
 };
 
 #endif /* GOL_H_INCLUDED */

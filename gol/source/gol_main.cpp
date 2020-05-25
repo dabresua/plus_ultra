@@ -9,8 +9,8 @@
 using namespace std;
 
 //Screen dimension constants
-#define SCREEN_WIDTH  (1280)
-#define SCREEN_HEIGHT (800)
+#define SCREEN_WIDTH  (1920)
+#define SCREEN_HEIGHT (900)
 
 #define GOL_PERIOD_MS (50)
 
@@ -136,6 +136,9 @@ int main()
 			}
 		}
 	} while(!quit);
+
+	close();
+	g.gc();
 
 	return 0;
 }
