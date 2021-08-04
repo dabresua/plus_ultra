@@ -58,7 +58,7 @@
 MY_CFLAGS = -I$(SRCROOT) -I$(LIBDIR)
 
 # The linker options.
-MY_LIBS   = -lSDL2 -lSDL2_image
+MY_LIBS   = -lSDL2 -lSDL2_image -lSDL2_ttf
 
 # The pre-processor options used by the cpp (man cpp for more).
 CPPFLAGS  = -Wall
