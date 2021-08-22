@@ -1,0 +1,19 @@
+autoscan: warning: missing AC_CHECK_HEADER_STDBOOL wanted by: 
+	source/gataka.cpp:81
+	include/actor.h:16
+	include/actor.h:51
+	include/actor.h:84
+	source/gataka.cpp:81
+	source/gataka.cpp:92
+	include/actor.h:35
+autoscan: warning: missing AC_C_INLINE wanted by: 
+	include/actor.h:43
+	include/actor.h:51
+	include/actor.h:59
+	include/actor.h:67
+	include/actor.h:75
+	include/actor.h:84
+	include/coordinates.h:40
+	include/coordinates.h:49
+	include/coordinates.h:58
+	include/coordinates.h:67
