@@ -15,7 +15,9 @@ private:
 	 */
 	void move()
 	{
-		this->coordinates.move(par.speed * cos(angle), par.speed * sin(angle));
+		Coordinates tmp = Coordinates(par.speed * cos(angle),
+		                              par.speed * sin(angle));
+		this->coordinates += tmp;
 	}
 public:
 	/*

@@ -20,7 +20,7 @@ int main()
 	Coordinates e = Coordinates(10, 20);
 	cout << e << endl;
 
-	e.move(33, 45);
+	e += {33, 45};
 	cout << e << endl;
 
 	return 0;

@@ -46,7 +46,7 @@ public:
 	 * @brief gets x coordinate
 	 * @returns x coordinate
 	 */
-	inline unsigned int getX()
+	inline unsigned int getX() const
 	{
 		return this->x;
 	}
@@ -55,7 +55,7 @@ public:
 	 * @brief gets y coordinate
 	 * @returns y coordinate
 	 */
-	inline unsigned int getY()
+	inline unsigned int getY() const
 	{
 		return this->y;
 	}
@@ -79,15 +79,16 @@ public:
 	}
 
 	/**
-	 * @briefs moves the coordinates incrementing
+	 * @briefs Increments the coordinates by another coordinate
 	 * @brief ix  x increment
 	 * @brief iy  y increment
 	 */
-	 inline void move(unsigned int ix, unsigned int iy)
-	 {
-		 this->x += ix;
-		 this->y += iy;
-	 }
+	Coordinates& operator+=(const Coordinates& c)
+	{
+		this->x += c.getX();
+		this->y += c.getY();
+		return *this;
+	}
 
 	friend std::ostream& operator<<(std::ostream& os, const Coordinates &c);
 };
