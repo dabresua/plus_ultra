@@ -3,6 +3,7 @@
 
 #include <math.h>
 #include <bullet_params.h>
+#include <math_utils.h>
 
 class ActorBullet : public Actor
 {
@@ -37,10 +38,9 @@ public:
 	ActorBullet(Coordinates c, const bullet_params_t& params, double ang)
 	: Actor(c)
 	{
-		#define PI 3.14159265
 		par.attack = params.attack;
 		par.speed = params.speed;
-		angle = ang * PI / 180.0;
+		angle = math_utils::toRads(ang);
 	}
 
 	/**
@@ -50,6 +50,16 @@ public:
 	{
 		move();
 	}
+
+	friend std::ostream& operator<<(std::ostream& os, const ActorBullet &ab);
 };
+
+std::ostream& operator<<(std::ostream& os, const ActorBullet &ab)
+{
+	ab.Actor::print(os);
+	os << ", angle " << math_utils::toSexa(ab.angle) << " ";
+	os << ab.par;
+	return os;
+}
 
 #endif /* ACTOR_BULLET_H_INCLUDED */

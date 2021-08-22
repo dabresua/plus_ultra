@@ -2,6 +2,7 @@
 #include <actor_bullet.h>
 #include <actor_ship.h>
 #include <iostream>
+#include <exception>
 
 long Actor::idCounter = 0;
 
@@ -76,8 +77,13 @@ int main()
 	cout << ship1 << endl;
 	ship1.act();
 	cout << ship1.shootsInQueue() << endl;
-	shoot_params_t sp = ship1.popShoot();
-	cout << sp << endl;
+	shoot_params_t sp;
+	try {
+		sp = ship1.popShoot();
+		cout << sp << endl;
+	} catch (std::exception &e) {
+		cerr << e.what() << endl;
+	}
 	cout << ship1.shootsInQueue() << endl;
 
 	cout << "------------------ Ship 2 -------------------" << endl;
@@ -86,9 +92,15 @@ int main()
 	cout << ship2 << endl;
 	ship2.shoot();
 	cout << ship2.shootsInQueue() << endl;
-	sp = ship2.popShoot();
+	try {
+		sp = ship2.popShoot();
+		cout << sp << endl;
+	} catch (std::exception &e) {
+		cerr << e.what() << endl;
+	}
 	cout << sp << endl;
 	cout << ship2.shootsInQueue() << endl;
+	cout << ship2.getBulletParams() << endl;
 
 	return 0;
 }

@@ -5,6 +5,8 @@
 #include <shoot_params.h>
 #include <actor_bullet.h>
 #include <queue>
+#include <string>
+#include <exceptions.h>
 
 class ActorShip : public Actor
 {
@@ -41,7 +43,7 @@ public:
 	/**
 	 * @brief gets the bullet parameters
 	 */
-	bullet_params_t getBulletParams()
+	const bullet_params_t& getBulletParams() const
 	{
 		/* TODO: const reference? */
 		return bpar;
@@ -50,7 +52,7 @@ public:
 	/**
 	 * @brief Gets the number of bullets in queue
 	 */
-	size_t shootsInQueue()
+	size_t shootsInQueue() const
 	{
 		return shoots.size();
 	}
@@ -60,13 +62,14 @@ public:
 	 */
 	shoot_params_t popShoot()
 	{
-		/* TODO: more efficient way? */
-		if (shoots.size() > 0) {
-			shoot_params_t first = shoots.front();
-			shoots.pop();
-			return first;
+		if (shoots.size() <= 0) {
+			using namespace exceptions;
+			throw std::underflow_error(message("No shoots on queue",
+			                                   __FILE__, __LINE__));
 		}
-		return {{0,0},0};
+		shoot_params_t first = shoots.front();
+		shoots.pop();
+		return first;
 	}
 
 	/**
@@ -84,6 +87,16 @@ public:
 		std::cout << "I'm a ship" << std::endl;
 	}
 	//void accelerate(); //TODO
+
+	friend std::ostream& operator<<(std::ostream& os, const ActorShip &ab);
 };
+
+std::ostream& operator<<(std::ostream& os, const ActorShip &as)
+{
+	as.Actor::print(os);
+	os << ", angle " << math_utils::toSexa(as.angle) << " ";
+	os << as.shootsInQueue() << "shoots " << as.bpar;
+	return os;
+}
 
 #endif /* ACTOR_SHIP_H_INCLUDED */
