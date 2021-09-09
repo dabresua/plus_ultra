@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	tests/Makefile	/^CC     = g++$/;"	m
+CFLAGS	tests/Makefile	/^CFLAGS  = -g$/;"	m
+COBJS	tests/Makefile	/^COBJS = $(filter-out $(foreach d,$(PROGRAM), \\$/;"	m
+COMPILE.c	tests/Makefile	/^COMPILE.c   = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) -c$/;"	m
+COMPILE.cxx	tests/Makefile	/^COMPILE.cxx = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c$/;"	m
+CPPFLAGS	tests/Makefile	/^CPPFLAGS  = -Wall$/;"	m
+CTAGS	tests/Makefile	/^CTAGS = ctags$/;"	m
+CTAGSFLAGS	tests/Makefile	/^CTAGSFLAGS =$/;"	m
+CUR_PATH_NAMES	tests/Makefile	/^  CUR_PATH_NAMES = $(subst \/,$(SPACE),$(subst $(SPACE),_,$(CURDIR)))$/;"	m
+CXX	tests/Makefile	/^CXX    = g++$/;"	m
+CXXFLAGS	tests/Makefile	/^CXXFLAGS= -g$/;"	m
+DEPEND	tests/Makefile	/^DEPEND      = $(CC)  $(DEP_OPT)  $(MY_CFLAGS) $(CFLAGS) $(CPPFLAGS)$/;"	m
+DEPEND.d	tests/Makefile	/^DEPEND.d    = $(subst -g ,,$(DEPEND))$/;"	m
+DEPS	tests/Makefile	/^DEPS    = $(OBJS:.o=.d)$/;"	m
+DEP_OPT	tests/Makefile	/^DEP_OPT = $(shell if `$(CC) --version | grep "gcc" >\/dev\/null`; then \\$/;"	m
+EMPTY	tests/Makefile	/^EMPTY   =$/;"	m
+G2D_ENGINE_H_INCLUDED	include/g2d_engine.h	2;"	d
+G2D_ENGINE_SCREEN_MAX	source/g2d_engine.cpp	4;"	d	file:
+HDREXTS	tests/Makefile	/^HDREXTS = .h .H .hh .hpp .HPP .h++ .hxx .hp$/;"	m
+HEADERS	tests/Makefile	/^HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(HDREXTS))))$/;"	m
+LDFLAGS	tests/Makefile	/^LDFLAGS   =$/;"	m
+LIBDIR	tests/Makefile	/^LIBDIR    = ..\/include$/;"	m
+LINK.c	tests/Makefile	/^LINK.c      = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.cxx	tests/Makefile	/^LINK.cxx    = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS)$/;"	m
+MY_CFLAGS	tests/Makefile	/^MY_CFLAGS = -I$(SRCROOT) -I$(LIBDIR)$/;"	m
+MY_LIBS	tests/Makefile	/^MY_LIBS   = -lSDL2 -lSDL2_image -lSDL2_ttf$/;"	m
+OBJS	tests/Makefile	/^OBJS    = $(addsuffix .o, $(basename $(SOURCES)))$/;"	m
+PROGRAM	tests/Makefile	/^    PROGRAM = demo.out$/;"	m
+PROGRAM	tests/Makefile	/^  PROGRAM = $(word $(words $(CUR_PATH_NAMES)),$(CUR_PATH_NAMES))$/;"	m
+PROGRAM	tests/Makefile	/^PROGRAM   = g2d_test_engine$/;"	m
+RECURSION	tests/Makefile	/^RECURSION = 1$/;"	m
+RM	tests/Makefile	/^RM     = rm -f$/;"	m
+RMDEPS	tests/Makefile	/^RMDEPS  := $(RMOBJS:.o=.d)$/;"	m
+RMOBJS	tests/Makefile	/^RMOBJS  := $(addsuffix \/*.o, $(SRCDIRS))$/;"	m
+SCREEN_OPENING_H_INCLUDED	include/g2d_screen.h	2;"	d
+SHELL	tests/Makefile	/^SHELL   = \/bin\/bash$/;"	m
+SOURCES	tests/Makefile	/^SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(SRCEXTS))))$/;"	m
+SPACE	tests/Makefile	/^SPACE   = $(EMPTY) $(EMPTY)$/;"	m
+SRCDIR	tests/Makefile	/^SRCDIR    = ..\/source$/;"	m
+SRCDIRS	tests/Makefile	/^  SRCDIRS = .$/;"	m
+SRCDIRS	tests/Makefile	/^SRCDIRS := $(foreach d,$(SRCDIRS),$(d:\/=))$/;"	m
+SRCDIRS	tests/Makefile	/^SRCDIRS := $(shell find $(SRCDIRS) -type d | grep \\\\.git -v)$/;"	m
+SRCDIRS	tests/Makefile	/^SRCDIRS := $(sort $(SRCDIRS))$/;"	m
+SRCDIRS	tests/Makefile	/^SRCDIRS := $(strip $(SRCROOT) $(SRCDIR))$/;"	m
+SRCEXTS	tests/Makefile	/^SRCEXTS = .c .C .cc .cpp .CPP .c++ .cxx .cp$/;"	m
+SRCROOT	tests/Makefile	/^SRCROOT   = source$/;"	m
+SRCROOT	tests/Makefile	/^SRCROOT := $(foreach d,$(SRCROOT),$(d:\/=))$/;"	m
+SRC_CXX	tests/Makefile	/^SRC_CXX = $(filter-out %.c,$(SOURCES))$/;"	m
+en_end	include/g2d_engine.h	/^	std::chrono::time_point<std::chrono::system_clock> en_end;   \/**< end time *\/$/;"	m	class:g2d_engine_t
+en_period	include/g2d_engine.h	/^	uint16_t     en_period; \/**< Period between runs *\/$/;"	m	class:g2d_engine_t
+en_sleep	include/g2d_engine.h	/^	int16_t       en_sleep; \/**< For thread sleep *\/$/;"	m	class:g2d_engine_t
+en_start	include/g2d_engine.h	/^	std::chrono::time_point<std::chrono::system_clock> en_start; \/**< start time *\/$/;"	m	class:g2d_engine_t
+ev_end	include/g2d_engine.h	/^	std::chrono::time_point<std::chrono::system_clock> ev_end;   \/**< end time *\/$/;"	m	class:g2d_engine_t
+ev_period	include/g2d_engine.h	/^	uint16_t    ev_period; \/**< Period between runs *\/$/;"	m	class:g2d_engine_t
+ev_sleep	include/g2d_engine.h	/^	int16_t      ev_sleep; \/**< For thread sleep *\/$/;"	m	class:g2d_engine_t
+ev_stack	include/g2d_engine.h	/^	std::queue <SDL_Event> ev_stack; \/**< FIFO of events *\/$/;"	m	class:g2d_engine_t
+ev_start	include/g2d_engine.h	/^	std::chrono::time_point<std::chrono::system_clock> ev_start; \/**< start time *\/$/;"	m	class:g2d_engine_t
+g2d_engine_screen_push	source/g2d_engine.cpp	/^void g2d_engine_t::g2d_engine_screen_push(g2d_screen_t *scr)$/;"	f	class:g2d_engine_t
+g2d_engine_start	source/g2d_engine.cpp	/^void g2d_engine_t::g2d_engine_start()$/;"	f	class:g2d_engine_t
+g2d_engine_t	include/g2d_engine.h	/^class g2d_engine_t {$/;"	c
+g2d_engine_t	source/g2d_engine.cpp	/^g2d_engine_t::g2d_engine_t()$/;"	f	class:g2d_engine_t
+g2d_engine_t	source/g2d_engine.cpp	/^g2d_engine_t::g2d_engine_t(SDL_Renderer *r) : g2d_engine_t$/;"	f	class:g2d_engine_t
+g2d_engine_torun	source/g2d_engine.cpp	/^bool g2d_engine_t::g2d_engine_torun()$/;"	f	class:g2d_engine_t
+g2d_ev_engine_torun	source/g2d_engine.cpp	/^bool g2d_engine_t::g2d_ev_engine_torun()$/;"	f	class:g2d_engine_t
+g2d_ev_sleep_period_get	include/g2d_engine.h	/^	uint16_t g2d_ev_sleep_period_get()$/;"	f	class:g2d_engine_t
+g2d_ev_sleep_period_update	source/g2d_engine.cpp	/^void g2d_engine_t::g2d_ev_sleep_period_update()$/;"	f	class:g2d_engine_t
+g2d_screen_t	include/g2d_screen.h	/^class g2d_screen_t {$/;"	c
+g2d_screen_t	include/g2d_screen.h	/^g2d_screen_t() {$/;"	f	class:g2d_screen_t
+g2d_sleep_period_get	include/g2d_engine.h	/^	uint16_t g2d_sleep_period_get()$/;"	f	class:g2d_engine_t
+g2d_sleep_period_update	source/g2d_engine.cpp	/^void g2d_engine_t::g2d_sleep_period_update()$/;"	f	class:g2d_engine_t
+main	tests/sdltest.cpp	/^int main()$/;"	f
+main	tests/source/g2d_test_engine.cpp	/^int main()$/;"	f
+rend	include/g2d_engine.h	/^	SDL_Renderer *rend; \/**< Graphics renderer *\/$/;"	m	class:g2d_engine_t
+scr_active	include/g2d_engine.h	/^	uint8_t                   scr_active; \/**< Active screen *\/$/;"	m	class:g2d_engine_t
+scr_list	include/g2d_engine.h	/^	std::vector <g2d_screen_t*> scr_list; \/**< List of screens *\/$/;"	m	class:g2d_engine_t

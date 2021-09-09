@@ -134,7 +134,9 @@ test_actor.o: test_actor.cpp /usr/include/stdc-predef.h actor.h \
  /usr/include/c++/7/bits/locale_facets.tcc \
  /usr/include/c++/7/bits/basic_ios.tcc \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
- /usr/include/c++/7/bits/istream.tcc actor_bullet.h \
+ /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/atomic \
+ /usr/include/c++/7/bits/atomic_base.h \
+ /usr/include/c++/7/bits/atomic_lockfree_defines.h actor_bullet.h \
  /usr/include/c++/7/math.h /usr/include/c++/7/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -145,14 +147,14 @@ test_actor.o: test_actor.cpp /usr/include/stdc-predef.h actor.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h bullet_params.h \
- actor_ship.h shoot_params.h /usr/include/c++/7/queue \
+ math_utils.h actor_ship.h shoot_params.h /usr/include/c++/7/queue \
  /usr/include/c++/7/deque /usr/include/c++/7/bits/stl_construct.h \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_deque.h /usr/include/c++/7/bits/deque.tcc \
  /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  /usr/include/c++/7/bits/stl_heap.h /usr/include/c++/7/bits/stl_queue.h \
- /usr/include/c++/7/bits/uses_allocator.h
+ /usr/include/c++/7/bits/uses_allocator.h exceptions.h
 
 /usr/include/stdc-predef.h:
 
@@ -498,6 +500,12 @@ coordinates.h:
 
 /usr/include/c++/7/bits/istream.tcc:
 
+/usr/include/c++/7/atomic:
+
+/usr/include/c++/7/bits/atomic_base.h:
+
+/usr/include/c++/7/bits/atomic_lockfree_defines.h:
+
 actor_bullet.h:
 
 /usr/include/c++/7/math.h:
@@ -525,6 +533,8 @@ actor_bullet.h:
 /usr/include/x86_64-linux-gnu/bits/mathinline.h:
 
 bullet_params.h:
+
+math_utils.h:
 
 actor_ship.h:
 
@@ -555,3 +565,5 @@ shoot_params.h:
 /usr/include/c++/7/bits/stl_queue.h:
 
 /usr/include/c++/7/bits/uses_allocator.h:
+
+exceptions.h:

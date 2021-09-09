@@ -3,15 +3,18 @@
 
 /**
  * @file coordinates.h
- * @brief 2D coordinates definition and utils
+ * @brief 2D coordinates definition and utils.
+ *        Holded data is atomic, so is thread safe
+ *        std::atomic (c++11) intruduces atomic accesses without much overhead
  */
 #include <iostream>
+#include <atomic>
 
 class Coordinates
 {
 private:
-	unsigned int x;
-	unsigned int y;
+	std::atomic_ushort x; /**< atomic variables */
+	std::atomic_ushort y; /**< atomic variables */
 public:
 	/**
 	 * @brief default constructor
@@ -27,8 +30,8 @@ public:
 	 */
 	Coordinates(const Coordinates &c)
 	{
-		this->x = c.x;
-		this->y = c.y;
+		this->x = c.x.load();
+		this->y = c.y.load();
 	}
 
 	/**
@@ -48,7 +51,7 @@ public:
 	 */
 	inline unsigned int getX() const
 	{
-		return this->x;
+		return this->x.load();
 	}
 
 	/**
@@ -57,7 +60,7 @@ public:
 	 */
 	inline unsigned int getY() const
 	{
-		return this->y;
+		return this->y.load();
 	}
 
 	/**
@@ -80,8 +83,7 @@ public:
 
 	/**
 	 * @briefs Increments the coordinates by another coordinate
-	 * @brief ix  x increment
-	 * @brief iy  y increment
+	 * @brief c  source coordinates
 	 */
 	Coordinates& operator+=(const Coordinates& c)
 	{
@@ -89,6 +91,17 @@ public:
 		this->y += c.getY();
 		return *this;
 	}
+
+	/**
+	 * @brief Copy operator overload for atomic implementation
+	 * @brief c  source coordinates
+	 */
+	 Coordinates& operator=(const Coordinates& c)
+ 	{
+ 		this->x = c.getX();
+ 		this->y = c.getY();
+ 		return *this;
+ 	}
 
 	friend std::ostream& operator<<(std::ostream& os, const Coordinates &c);
 };

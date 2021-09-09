@@ -1,7 +1,7 @@
 #include <actor.h>
 #include <iostream>
 
-long Actor::idCounter;
+std::atomic_long Actor::idCounter(0);
 
 int main()
 {

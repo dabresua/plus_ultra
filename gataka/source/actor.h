@@ -8,13 +8,14 @@
 
 #include <coordinates.h>
 #include <iostream>
+#include <atomic>
 
 class Actor
 {
 private:
-	static long idCounter;   /*< Actor counter */
+	static std::atomic_long idCounter;   /*< Actor counter. Thread safe */
 protected:
-	Coordinates coordinates; /*< coordinates of the actor */
+	Coordinates coordinates; /*< coordinates of the actor. Thread safe */
 	long id;                 /*< Identifier, unique for every actor */
 public:
 	/**
@@ -22,7 +23,7 @@ public:
 	 */
 	Actor()
 	{
-		coordinates = Coordinates({0,0});
+		coordinates = Coordinates(0,0);
 		id = idCounter;
 		idCounter++;
 		std::cout << "I'm an default actor" << std::endl;

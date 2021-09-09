@@ -134,7 +134,9 @@ test_coordinates.o: test_coordinates.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/bits/locale_facets.tcc \
  /usr/include/c++/7/bits/basic_ios.tcc \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
- /usr/include/c++/7/bits/istream.tcc
+ /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/atomic \
+ /usr/include/c++/7/bits/atomic_base.h \
+ /usr/include/c++/7/bits/atomic_lockfree_defines.h
 
 /usr/include/stdc-predef.h:
 
@@ -479,3 +481,9 @@ coordinates.h:
 /usr/include/c++/7/istream:
 
 /usr/include/c++/7/bits/istream.tcc:
+
+/usr/include/c++/7/atomic:
+
+/usr/include/c++/7/bits/atomic_base.h:
+
+/usr/include/c++/7/bits/atomic_lockfree_defines.h:

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <exception>
 
-long Actor::idCounter = 0;
+std::atomic_long Actor::idCounter(0);
 
 class BadActor : public Actor
 {

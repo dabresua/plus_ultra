@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTOR_SHIP_H_INCLUDED	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^#define ACTOR_SHIP_H_INCLUDED$/;"	macro	line:2
+ActorShip	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^class ActorShip : public Actor$/;"	class	line:9
+bpar	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	bullet_params_t bpar;$/;"	member	line:16	class:ActorShip
+angle	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	double angle;$/;"	member	line:17	class:ActorShip
+shoots	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	std::queue <shoot_params_t> shoots;$/;"	member	line:18	class:ActorShip
+ActorShip	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	ActorShip() : Actor()$/;"	function	line:23	class:ActorShip	signature:()
+ActorShip	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	ActorShip(Coordinates c, const bullet_params_t& params,$/;"	function	line:34	class:ActorShip	signature:(Coordinates c, const bullet_params_t& params, double angle = 0.0)
+getBulletParams	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	bullet_params_t getBulletParams()$/;"	function	line:44	class:ActorShip	signature:()
+shootsInQueue	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	size_t shootsInQueue()$/;"	function	line:53	class:ActorShip	signature:()
+popShoot	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	shoot_params_t popShoot()$/;"	function	line:61	class:ActorShip	signature:()
+shoot	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	void shoot()$/;"	function	line:76	class:ActorShip	signature:()
+act	/home/bret/workspace/plus_ultra/gataka/source/actor_ship.h	/^	void act()$/;"	function	line:82	class:ActorShip	signature:()

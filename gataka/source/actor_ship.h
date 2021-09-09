@@ -17,7 +17,7 @@ private:
 	//double force; //TODO
 	bullet_params_t bpar;
 	double angle;
-	std::queue <shoot_params_t> shoots;
+	std::queue <shoot_params_t> shoots; // TODO: thread safe or atomic
 public:
 	/**
 	 * @brief Default constructor

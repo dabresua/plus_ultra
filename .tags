@@ -1,0 +1,1134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+*	tools/atom/config.cson	/^"*":$/;"	f
+ACLOCAL	gataka/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing aclocal-1.15$/;"	m
+ACLOCAL	gataka/source/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing aclocal-1.15$/;"	m
+ACLOCAL	gataka/test/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing aclocal-1.15$/;"	m
+ACLOCAL_M4	gataka/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	gataka/source/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	gataka/test/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACTOR_BULLET_H_INCLUDED	gataka/source/actor_bullet.h	2;"	d
+ACTOR_H_INCLUDED	gataka/source/actor.h	2;"	d
+ACTOR_SHIP_H_INCLUDED	gataka/source/actor_ship.h	2;"	d
+AMTAR	gataka/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	gataka/source/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	gataka/test/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	gataka/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	gataka/source/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	gataka/test/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_RECURSIVE_TARGETS	gataka/Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_V_CXX	gataka/source/Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXX	gataka/test/Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXXLD	gataka/source/Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_CXXLD	gataka/test/Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_GEN	gataka/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	gataka/source/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	gataka/test/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	gataka/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	gataka/source/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	gataka/test/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	gataka/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	gataka/source/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	gataka/test/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AUTOCONF	gataka/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing autoconf$/;"	m
+AUTOCONF	gataka/source/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing autoconf$/;"	m
+AUTOCONF	gataka/test/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing autoconf$/;"	m
+AUTOHEADER	gataka/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing autoheader$/;"	m
+AUTOHEADER	gataka/source/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing autoheader$/;"	m
+AUTOHEADER	gataka/test/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing autoheader$/;"	m
+AUTOMAKE	gataka/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing automake-1.15$/;"	m
+AUTOMAKE	gataka/source/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing automake-1.15$/;"	m
+AUTOMAKE	gataka/test/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing automake-1.15$/;"	m
+AWK	gataka/Makefile	/^AWK = gawk$/;"	m
+AWK	gataka/source/Makefile	/^AWK = gawk$/;"	m
+AWK	gataka/test/Makefile	/^AWK = gawk$/;"	m
+Actor	gataka/source/actor.h	/^	Actor()$/;"	f	class:Actor
+Actor	gataka/source/actor.h	/^	Actor(Coordinates c)$/;"	f	class:Actor
+Actor	gataka/source/actor.h	/^class Actor$/;"	c
+ActorBullet	gataka/source/actor_bullet.h	/^	 ActorBullet() : Actor()$/;"	f	class:ActorBullet
+ActorBullet	gataka/source/actor_bullet.h	/^	ActorBullet(Coordinates c, const bullet_params_t& params, double ang)$/;"	f	class:ActorBullet
+ActorBullet	gataka/source/actor_bullet.h	/^class ActorBullet : public Actor$/;"	c
+ActorShip	gataka/source/actor_ship.h	/^	ActorShip() : Actor()$/;"	f	class:ActorShip
+ActorShip	gataka/source/actor_ship.h	/^	ActorShip(Coordinates c, const bullet_params_t& params,$/;"	f	class:ActorShip
+ActorShip	gataka/source/actor_ship.h	/^class ActorShip : public Actor$/;"	c
+BULLET_PARAMS_H_INCLUDED	gataka/source/bullet_params.h	2;"	d
+BUTTON_H_INCLUDED	prueba/include/button.h	2;"	d
+BUTTON_TEXT	gtk/include/hello.h	5;"	d
+BadActor	gataka/source/test_actor.cpp	/^	BadActor() : Actor()$/;"	f	class:BadActor
+BadActor	gataka/source/test_actor.cpp	/^	BadActor(Coordinates c) : Actor(c)$/;"	f	class:BadActor
+BadActor	gataka/source/test_actor.cpp	/^class BadActor : public Actor$/;"	c	file:
+Button	prueba/include/button.h	/^	Button() {$/;"	f	class:Button
+Button	prueba/include/button.h	/^	Button(int x, int y, Shape *s, std::string text) {$/;"	f	class:Button
+Button	prueba/include/button.h	/^class Button {$/;"	c
+CC	examples/01_hello_SDL/Makefile	/^CC = g++$/;"	m
+CC	examples/16_true_type_fonts/Makefile	/^CC = g++$/;"	m
+CC	gataka/Makefile	/^CC = gcc$/;"	m
+CC	gataka/source/Makefile	/^CC = gcc$/;"	m
+CC	gataka/test/Makefile	/^CC = gcc$/;"	m
+CC	gol/Makefile	/^CC     = gcc$/;"	m
+CC	gtk/Makefile	/^CC     = gcc$/;"	m
+CC	libg2d/tests/Makefile	/^CC     = g++$/;"	m
+CC	prueba/Makefile	/^CC     = gcc$/;"	m
+CC	sdl/Makefile	/^CC     = gcc$/;"	m
+CCDEPMODE	gataka/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	gataka/source/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	gataka/test/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CELL_SIZE	gol/source/gol.cpp	14;"	d	file:
+CFLAGS	gataka/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	gataka/source/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	gataka/test/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	gol/Makefile	/^CFLAGS  = -g$/;"	m
+CFLAGS	gtk/Makefile	/^CFLAGS  = -g$/;"	m
+CFLAGS	libg2d/tests/Makefile	/^CFLAGS  = -g$/;"	m
+CFLAGS	prueba/Makefile	/^CFLAGS  = -g$/;"	m
+CFLAGS	sdl/Makefile	/^CFLAGS  = -g$/;"	m
+COBJS	gol/Makefile	/^COBJS = $(filter-out $(foreach d,$(PROGRAM), \\$/;"	m
+COBJS	gtk/Makefile	/^COBJS = $(filter-out $(foreach d,$(PROGRAM), \\$/;"	m
+COBJS	libg2d/tests/Makefile	/^COBJS = $(filter-out $(foreach d,$(PROGRAM), \\$/;"	m
+COBJS	prueba/Makefile	/^COBJS = $(filter-out $(foreach d,$(PROGRAM), \\$/;"	m
+COBJS	sdl/Makefile	/^COBJS = $(filter-out $(foreach d,$(PROGRAM), \\$/;"	m
+COMPILE.c	gol/Makefile	/^COMPILE.c   = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) -c$/;"	m
+COMPILE.c	gtk/Makefile	/^COMPILE.c   = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) -c$/;"	m
+COMPILE.c	libg2d/tests/Makefile	/^COMPILE.c   = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) -c$/;"	m
+COMPILE.c	prueba/Makefile	/^COMPILE.c   = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) -c$/;"	m
+COMPILE.c	sdl/Makefile	/^COMPILE.c   = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) -c$/;"	m
+COMPILE.cxx	gol/Makefile	/^COMPILE.cxx = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c$/;"	m
+COMPILE.cxx	gtk/Makefile	/^COMPILE.cxx = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c$/;"	m
+COMPILE.cxx	libg2d/tests/Makefile	/^COMPILE.cxx = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c$/;"	m
+COMPILE.cxx	prueba/Makefile	/^COMPILE.cxx = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c$/;"	m
+COMPILE.cxx	sdl/Makefile	/^COMPILE.cxx = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) -c$/;"	m
+COMPILER_FLAGS	examples/01_hello_SDL/Makefile	/^COMPILER_FLAGS = -w$/;"	m
+COMPILER_FLAGS	examples/16_true_type_fonts/Makefile	/^COMPILER_FLAGS = -w$/;"	m
+CONFIG_CLEAN_FILES	gataka/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	gataka/source/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	gataka/test/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	gataka/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	gataka/source/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	gataka/test/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	gataka/Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	gataka/source/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	gataka/test/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+COORDINATES_H_INCLUDED	gataka/source/coordinates.h	2;"	d
+COORDINATES_H_INCLUDED	gol/include/coordinates.h	2;"	d
+CPPFLAGS	gataka/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	gataka/source/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	gataka/test/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	gol/Makefile	/^CPPFLAGS  = -Wall$/;"	m
+CPPFLAGS	gtk/Makefile	/^CPPFLAGS  = -Wall$/;"	m
+CPPFLAGS	libg2d/tests/Makefile	/^CPPFLAGS  = -Wall$/;"	m
+CPPFLAGS	prueba/Makefile	/^CPPFLAGS  = -Wall$/;"	m
+CPPFLAGS	sdl/Makefile	/^CPPFLAGS  = -Wall$/;"	m
+CSCOPE	gataka/Makefile	/^CSCOPE = cscope$/;"	m
+CTAGS	gataka/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	gataka/source/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	gataka/test/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	gol/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	gtk/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	libg2d/tests/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	prueba/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	sdl/Makefile	/^CTAGS = ctags$/;"	m
+CTAGSFLAGS	gol/Makefile	/^CTAGSFLAGS =$/;"	m
+CTAGSFLAGS	gtk/Makefile	/^CTAGSFLAGS =$/;"	m
+CTAGSFLAGS	libg2d/tests/Makefile	/^CTAGSFLAGS =$/;"	m
+CTAGSFLAGS	prueba/Makefile	/^CTAGSFLAGS =$/;"	m
+CTAGSFLAGS	sdl/Makefile	/^CTAGSFLAGS =$/;"	m
+CURRENT_WORLD_1	gol/source/gol.cpp	10;"	d	file:
+CURRENT_WORLD_2	gol/source/gol.cpp	11;"	d	file:
+CUR_PATH_NAMES	gol/Makefile	/^  CUR_PATH_NAMES = $(subst \/,$(SPACE),$(subst $(SPACE),_,$(CURDIR)))$/;"	m
+CUR_PATH_NAMES	gtk/Makefile	/^  CUR_PATH_NAMES = $(subst \/,$(SPACE),$(subst $(SPACE),_,$(CURDIR)))$/;"	m
+CUR_PATH_NAMES	libg2d/tests/Makefile	/^  CUR_PATH_NAMES = $(subst \/,$(SPACE),$(subst $(SPACE),_,$(CURDIR)))$/;"	m
+CUR_PATH_NAMES	prueba/Makefile	/^  CUR_PATH_NAMES = $(subst \/,$(SPACE),$(subst $(SPACE),_,$(CURDIR)))$/;"	m
+CUR_PATH_NAMES	sdl/Makefile	/^  CUR_PATH_NAMES = $(subst \/,$(SPACE),$(subst $(SPACE),_,$(CURDIR)))$/;"	m
+CXX	gataka/Makefile	/^CXX = g++$/;"	m
+CXX	gataka/source/Makefile	/^CXX = g++$/;"	m
+CXX	gataka/test/Makefile	/^CXX = g++$/;"	m
+CXX	gol/Makefile	/^CXX    = g++$/;"	m
+CXX	gtk/Makefile	/^CXX    = g++$/;"	m
+CXX	libg2d/tests/Makefile	/^CXX    = g++$/;"	m
+CXX	prueba/Makefile	/^CXX    = g++$/;"	m
+CXX	sdl/Makefile	/^CXX    = g++$/;"	m
+CXXCOMPILE	gataka/source/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCOMPILE	gataka/test/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXDEPMODE	gataka/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	gataka/source/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	gataka/test/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	gataka/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	gataka/source/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	gataka/test/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	gol/Makefile	/^CXXFLAGS= -g$/;"	m
+CXXFLAGS	gtk/Makefile	/^CXXFLAGS= -g$/;"	m
+CXXFLAGS	libg2d/tests/Makefile	/^CXXFLAGS= -g$/;"	m
+CXXFLAGS	prueba/Makefile	/^CXXFLAGS= -g$/;"	m
+CXXFLAGS	sdl/Makefile	/^CXXFLAGS= -g$/;"	m
+CXXLD	gataka/source/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLD	gataka/test/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	gataka/source/Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CXXLINK	gataka/test/Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CYGPATH_W	gataka/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	gataka/source/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	gataka/test/Makefile	/^CYGPATH_W = echo$/;"	m
+Color	examples/GTKGraphicsTest.cpp	/^		public: Color() {}$/;"	f	class:Color
+Color	examples/GTKGraphicsTest.cpp	/^		public: Color(double redIn, double greenIn, double blueIn)$/;"	f	class:Color
+Color	examples/GTKGraphicsTest.cpp	/^class Color$/;"	c	file:
+Coordinates	gataka/source/coordinates.h	/^	Coordinates()$/;"	f	class:Coordinates
+Coordinates	gataka/source/coordinates.h	/^	Coordinates(const Coordinates &c)$/;"	f	class:Coordinates
+Coordinates	gataka/source/coordinates.h	/^	Coordinates(unsigned int x, unsigned int y)$/;"	f	class:Coordinates
+Coordinates	gataka/source/coordinates.h	/^class Coordinates$/;"	c
+Coordinates	gol/include/coordinates.h	/^class Coordinates {$/;"	c
+Coords	examples/GTKGraphicsTest.cpp	/^	public: Coords(int xIn, int yIn)$/;"	f	class:Coords
+Coords	examples/GTKGraphicsTest.cpp	/^class Coords$/;"	c	file:
+DATA	gataka/Makefile	/^DATA = $(dist_doc_DATA)$/;"	m
+DEFAULT_INCLUDES	gataka/source/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	gataka/test/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	gataka/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	gataka/source/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	gataka/test/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	gataka/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	gataka/source/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	gataka/test/Makefile	/^DEPDIR = .deps$/;"	m
+DEPEND	gol/Makefile	/^DEPEND      = $(CC)  $(DEP_OPT)  $(MY_CFLAGS) $(CFLAGS) $(CPPFLAGS)$/;"	m
+DEPEND	gtk/Makefile	/^DEPEND      = $(CC)  $(DEP_OPT)  $(MY_CFLAGS) $(CFLAGS) $(CPPFLAGS)$/;"	m
+DEPEND	libg2d/tests/Makefile	/^DEPEND      = $(CC)  $(DEP_OPT)  $(MY_CFLAGS) $(CFLAGS) $(CPPFLAGS)$/;"	m
+DEPEND	prueba/Makefile	/^DEPEND      = $(CC)  $(DEP_OPT)  $(MY_CFLAGS) $(CFLAGS) $(CPPFLAGS)$/;"	m
+DEPEND	sdl/Makefile	/^DEPEND      = $(CC)  $(DEP_OPT)  $(MY_CFLAGS) $(CFLAGS) $(CPPFLAGS)$/;"	m
+DEPEND.d	gol/Makefile	/^DEPEND.d    = $(subst -g ,,$(DEPEND))$/;"	m
+DEPEND.d	gtk/Makefile	/^DEPEND.d    = $(subst -g ,,$(DEPEND))$/;"	m
+DEPEND.d	libg2d/tests/Makefile	/^DEPEND.d    = $(subst -g ,,$(DEPEND))$/;"	m
+DEPEND.d	prueba/Makefile	/^DEPEND.d    = $(subst -g ,,$(DEPEND))$/;"	m
+DEPEND.d	sdl/Makefile	/^DEPEND.d    = $(subst -g ,,$(DEPEND))$/;"	m
+DEPS	gol/Makefile	/^DEPS    = $(OBJS:.o=.d)$/;"	m
+DEPS	gtk/Makefile	/^DEPS    = $(OBJS:.o=.d)$/;"	m
+DEPS	libg2d/tests/Makefile	/^DEPS    = $(OBJS:.o=.d)$/;"	m
+DEPS	prueba/Makefile	/^DEPS    = $(OBJS:.o=.d)$/;"	m
+DEPS	sdl/Makefile	/^DEPS    = $(OBJS:.o=.d)$/;"	m
+DEP_OPT	gol/Makefile	/^DEP_OPT = $(shell if `$(CC) --version | grep "gcc" >\/dev\/null`; then \\$/;"	m
+DEP_OPT	gtk/Makefile	/^DEP_OPT = $(shell if `$(CC) --version | grep "gcc" >\/dev\/null`; then \\$/;"	m
+DEP_OPT	libg2d/tests/Makefile	/^DEP_OPT = $(shell if `$(CC) --version | grep "gcc" >\/dev\/null`; then \\$/;"	m
+DEP_OPT	prueba/Makefile	/^DEP_OPT = $(shell if `$(CC) --version | grep "gcc" >\/dev\/null`; then \\$/;"	m
+DEP_OPT	sdl/Makefile	/^DEP_OPT = $(shell if `$(CC) --version | grep "gcc" >\/dev\/null`; then \\$/;"	m
+DISTFILES	gataka/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	gataka/source/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	gataka/test/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	gataka/Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	gataka/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(top_srcdir)\/configure \\$/;"	m
+DIST_COMMON	gataka/source/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_COMMON	gataka/test/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_SOURCES	gataka/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	gataka/source/Makefile	/^DIST_SOURCES = $(gataka_SOURCES) $(test_actor_SOURCES) \\$/;"	m
+DIST_SOURCES	gataka/test/Makefile	/^DIST_SOURCES = $(actor_SOURCES)$/;"	m
+DIST_SUBDIRS	gataka/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_TARGETS	gataka/Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DisplayHelper	examples/GTKGraphicsTest.cpp	/^	public: DisplayHelper() {}$/;"	f	class:DisplayHelper
+DisplayHelper	examples/GTKGraphicsTest.cpp	/^class DisplayHelper$/;"	c	file:
+ECHO_C	gataka/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	gataka/source/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	gataka/test/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	gataka/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	gataka/source/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	gataka/test/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	gataka/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	gataka/source/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	gataka/test/Makefile	/^ECHO_T = $/;"	m
+EMPTY	gol/Makefile	/^EMPTY   =$/;"	m
+EMPTY	gtk/Makefile	/^EMPTY   =$/;"	m
+EMPTY	libg2d/tests/Makefile	/^EMPTY   =$/;"	m
+EMPTY	prueba/Makefile	/^EMPTY   =$/;"	m
+EMPTY	sdl/Makefile	/^EMPTY   =$/;"	m
+ETAGS	gataka/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	gataka/source/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	gataka/test/Makefile	/^ETAGS = etags$/;"	m
+EXCEPTIONS_H_INCLUDED	gataka/source/exceptions.h	2;"	d
+EXEEXT	gataka/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	gataka/source/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	gataka/test/Makefile	/^EXEEXT = $/;"	m
+G2D_ENGINE_H_INCLUDED	libg2d/include/g2d_engine.h	2;"	d
+G2D_ENGINE_SCREEN_MAX	libg2d/source/g2d_engine.cpp	4;"	d	file:
+GOL_DEFAULT_H	gol/source/gol.cpp	8;"	d	file:
+GOL_DEFAULT_W	gol/source/gol.cpp	7;"	d	file:
+GOL_H_INCLUDED	gol/include/gol.h	2;"	d
+GOL_PERIOD_MS	gol/source/gol_main.cpp	16;"	d	file:
+GTKGraphicsTest	examples/GTKGraphicsTest.cpp	/^	public: GTKGraphicsTest()$/;"	f	class:GTKGraphicsTest
+GTKGraphicsTest	examples/GTKGraphicsTest.cpp	/^class GTKGraphicsTest : public Window$/;"	c	file:
+GZIP_ENV	gataka/Makefile	/^GZIP_ENV = --best$/;"	m
+Gol	gol/include/gol.h	/^class Gol {$/;"	c
+Gol	gol/source/gol.cpp	/^Gol::Gol(unsigned int w, unsigned int h, rule_set_t r)$/;"	f	class:Gol
+HDREXTS	gol/Makefile	/^HDREXTS = .h .H .hh .hpp .HPP .h++ .hxx .hp$/;"	m
+HDREXTS	gtk/Makefile	/^HDREXTS = .h .H .hh .hpp .HPP .h++ .hxx .hp$/;"	m
+HDREXTS	libg2d/tests/Makefile	/^HDREXTS = .h .H .hh .hpp .HPP .h++ .hxx .hp$/;"	m
+HDREXTS	prueba/Makefile	/^HDREXTS = .h .H .hh .hpp .HPP .h++ .hxx .hp$/;"	m
+HDREXTS	sdl/Makefile	/^HDREXTS = .h .H .hh .hpp .HPP .h++ .hxx .hp$/;"	m
+HEADERS	gol/Makefile	/^HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(HDREXTS))))$/;"	m
+HEADERS	gtk/Makefile	/^HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(HDREXTS))))$/;"	m
+HEADERS	libg2d/tests/Makefile	/^HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(HDREXTS))))$/;"	m
+HEADERS	prueba/Makefile	/^HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(HDREXTS))))$/;"	m
+HEADERS	sdl/Makefile	/^HEADERS = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(HDREXTS))))$/;"	m
+HELLO	gtk/include/hello.h	4;"	d
+HELLO_H_INCLUDED	gtk/include/hello.h	2;"	d
+INSTALL	gataka/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	gataka/source/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	gataka/test/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	gataka/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	gataka/source/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	gataka/test/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	gataka/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	gataka/source/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	gataka/test/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	gataka/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	gataka/source/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	gataka/test/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	gataka/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	gataka/source/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	gataka/test/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	gataka/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	gataka/source/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	gataka/test/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LDFLAGS	gataka/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	gataka/source/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	gataka/test/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	gol/Makefile	/^LDFLAGS   =$/;"	m
+LDFLAGS	gtk/Makefile	/^LDFLAGS   =$/;"	m
+LDFLAGS	libg2d/tests/Makefile	/^LDFLAGS   =$/;"	m
+LDFLAGS	prueba/Makefile	/^LDFLAGS   =$/;"	m
+LDFLAGS	sdl/Makefile	/^LDFLAGS   =$/;"	m
+LIBDIR	gol/Makefile	/^LIBDIR    = include$/;"	m
+LIBDIR	gtk/Makefile	/^LIBDIR    = include$/;"	m
+LIBDIR	libg2d/tests/Makefile	/^LIBDIR    = ..\/include$/;"	m
+LIBDIR	prueba/Makefile	/^LIBDIR    = include$/;"	m
+LIBDIR	sdl/Makefile	/^LIBDIR    = include$/;"	m
+LIBOBJS	gataka/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	gataka/source/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	gataka/test/Makefile	/^LIBOBJS = $/;"	m
+LIBS	gataka/Makefile	/^LIBS = $/;"	m
+LIBS	gataka/source/Makefile	/^LIBS = $/;"	m
+LIBS	gataka/test/Makefile	/^LIBS = $/;"	m
+LINK.c	gol/Makefile	/^LINK.c      = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.c	gtk/Makefile	/^LINK.c      = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.c	libg2d/tests/Makefile	/^LINK.c      = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.c	prueba/Makefile	/^LINK.c      = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.c	sdl/Makefile	/^LINK.c      = $(CC)  $(MY_CFLAGS) $(CFLAGS)   $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.cxx	gol/Makefile	/^LINK.cxx    = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.cxx	gtk/Makefile	/^LINK.cxx    = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.cxx	libg2d/tests/Makefile	/^LINK.cxx    = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.cxx	prueba/Makefile	/^LINK.cxx    = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINK.cxx	sdl/Makefile	/^LINK.cxx    = $(CXX) $(MY_CFLAGS) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS)$/;"	m
+LINKER_FLAGS	examples/01_hello_SDL/Makefile	/^LINKER_FLAGS = -lSDL2$/;"	m
+LINKER_FLAGS	examples/16_true_type_fonts/Makefile	/^LINKER_FLAGS = -lSDL2$/;"	m
+LTLIBOBJS	gataka/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	gataka/source/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	gataka/test/Makefile	/^LTLIBOBJS = $/;"	m
+LTexture	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^LTexture::LTexture()$/;"	f	class:LTexture
+LTexture	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^class LTexture$/;"	c	file:
+MAIN_PERIOD_MS	prueba/source/main.cpp	14;"	d	file:
+MAKEINFO	gataka/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing makeinfo$/;"	m
+MAKEINFO	gataka/source/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing makeinfo$/;"	m
+MAKEINFO	gataka/test/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/missing makeinfo$/;"	m
+MATH_UTILS_H_INCLUDED	gataka/source/math_utils.h	2;"	d
+MKDIR_P	gataka/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	gataka/source/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	gataka/test/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MY_CFLAGS	gol/Makefile	/^MY_CFLAGS = -I$(SRCROOT) -I$(LIBDIR)$/;"	m
+MY_CFLAGS	gtk/Makefile	/^MY_CFLAGS = `pkg-config --cflags gtk+-3.0` -I$(SRCROOT) -I$(LIBDIR)$/;"	m
+MY_CFLAGS	libg2d/tests/Makefile	/^MY_CFLAGS = -I$(SRCROOT) -I$(LIBDIR)$/;"	m
+MY_CFLAGS	prueba/Makefile	/^MY_CFLAGS = -I$(SRCROOT) -I$(LIBDIR)$/;"	m
+MY_CFLAGS	sdl/Makefile	/^MY_CFLAGS = -I$(SRCROOT) -I$(LIBDIR)$/;"	m
+MY_LIBS	gol/Makefile	/^MY_LIBS   = -lSDL2 -lSDL2_image -lSDL2_ttf$/;"	m
+MY_LIBS	gtk/Makefile	/^MY_LIBS   = `pkg-config --libs gtk+-3.0 `$/;"	m
+MY_LIBS	libg2d/tests/Makefile	/^MY_LIBS   = -lSDL2 -lSDL2_image -lSDL2_ttf$/;"	m
+MY_LIBS	prueba/Makefile	/^MY_LIBS   = -lSDL2 -lSDL2_image -lSDL2_ttf$/;"	m
+MY_LIBS	sdl/Makefile	/^MY_LIBS   = -lSDL2 -lSDL2_image$/;"	m
+MathHelper	examples/GTKGraphicsTest.cpp	/^class MathHelper$/;"	c	file:
+NORMAL_INSTALL	gataka/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	gataka/source/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	gataka/test/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	gataka/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	gataka/source/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	gataka/test/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	gataka/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	gataka/source/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	gataka/test/Makefile	/^OBJEXT = o$/;"	m
+OBJS	examples/01_hello_SDL/Makefile	/^OBJS = 01_hello_SDL.cpp$/;"	m
+OBJS	examples/16_true_type_fonts/Makefile	/^OBJS = 16_true_type_fonts.cpp$/;"	m
+OBJS	gol/Makefile	/^OBJS    = $(addsuffix .o, $(basename $(SOURCES)))$/;"	m
+OBJS	gtk/Makefile	/^OBJS    = $(addsuffix .o, $(basename $(SOURCES)))$/;"	m
+OBJS	libg2d/tests/Makefile	/^OBJS    = $(addsuffix .o, $(basename $(SOURCES)))$/;"	m
+OBJS	prueba/Makefile	/^OBJS    = $(addsuffix .o, $(basename $(SOURCES)))$/;"	m
+OBJS	sdl/Makefile	/^OBJS    = $(addsuffix .o, $(basename $(SOURCES)))$/;"	m
+OBJ_NAME	examples/01_hello_SDL/Makefile	/^OBJ_NAME = 01_hello_SDL$/;"	m
+OBJ_NAME	examples/16_true_type_fonts/Makefile	/^OBJ_NAME = 16_true_type_fonts $/;"	m
+PACKAGE	gataka/Makefile	/^PACKAGE = gataka$/;"	m
+PACKAGE	gataka/config.h	5;"	d
+PACKAGE	gataka/source/Makefile	/^PACKAGE = gataka$/;"	m
+PACKAGE	gataka/test/Makefile	/^PACKAGE = gataka$/;"	m
+PACKAGE_BUGREPORT	gataka/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_BUGREPORT	gataka/config.h	8;"	d
+PACKAGE_BUGREPORT	gataka/source/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_BUGREPORT	gataka/test/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_NAME	gataka/Makefile	/^PACKAGE_NAME = gataka$/;"	m
+PACKAGE_NAME	gataka/config.h	11;"	d
+PACKAGE_NAME	gataka/source/Makefile	/^PACKAGE_NAME = gataka$/;"	m
+PACKAGE_NAME	gataka/test/Makefile	/^PACKAGE_NAME = gataka$/;"	m
+PACKAGE_STRING	gataka/Makefile	/^PACKAGE_STRING = gataka 1.0$/;"	m
+PACKAGE_STRING	gataka/config.h	14;"	d
+PACKAGE_STRING	gataka/source/Makefile	/^PACKAGE_STRING = gataka 1.0$/;"	m
+PACKAGE_STRING	gataka/test/Makefile	/^PACKAGE_STRING = gataka 1.0$/;"	m
+PACKAGE_TARNAME	gataka/Makefile	/^PACKAGE_TARNAME = gataka$/;"	m
+PACKAGE_TARNAME	gataka/config.h	17;"	d
+PACKAGE_TARNAME	gataka/source/Makefile	/^PACKAGE_TARNAME = gataka$/;"	m
+PACKAGE_TARNAME	gataka/test/Makefile	/^PACKAGE_TARNAME = gataka$/;"	m
+PACKAGE_URL	gataka/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	gataka/config.h	20;"	d
+PACKAGE_URL	gataka/source/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	gataka/test/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	gataka/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	gataka/config.h	23;"	d
+PACKAGE_VERSION	gataka/source/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	gataka/test/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PATH_SEPARATOR	gataka/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	gataka/source/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	gataka/test/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PI	gataka/source/math_utils.h	6;"	d
+PIXEL_BLANK	gol/source/gol.cpp	13;"	d	file:
+PIXEL_SIZE	gol/include/gol.h	9;"	d
+PLAYER_H_INCLUDED	gataka/source/player.h	2;"	d
+POST_INSTALL	gataka/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	gataka/source/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	gataka/test/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	gataka/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	gataka/source/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	gataka/test/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	gataka/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	gataka/source/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	gataka/test/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	gataka/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	gataka/source/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	gataka/test/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAM	gol/Makefile	/^    PROGRAM = demo.out$/;"	m
+PROGRAM	gol/Makefile	/^  PROGRAM = $(word $(words $(CUR_PATH_NAMES)),$(CUR_PATH_NAMES))$/;"	m
+PROGRAM	gol/Makefile	/^PROGRAM   = gol_main$/;"	m
+PROGRAM	gtk/Makefile	/^    PROGRAM = demo.out$/;"	m
+PROGRAM	gtk/Makefile	/^  PROGRAM = $(word $(words $(CUR_PATH_NAMES)),$(CUR_PATH_NAMES))$/;"	m
+PROGRAM	gtk/Makefile	/^PROGRAM   = hello $/;"	m
+PROGRAM	libg2d/tests/Makefile	/^    PROGRAM = demo.out$/;"	m
+PROGRAM	libg2d/tests/Makefile	/^  PROGRAM = $(word $(words $(CUR_PATH_NAMES)),$(CUR_PATH_NAMES))$/;"	m
+PROGRAM	libg2d/tests/Makefile	/^PROGRAM   = g2d_test_engine$/;"	m
+PROGRAM	prueba/Makefile	/^    PROGRAM = demo.out$/;"	m
+PROGRAM	prueba/Makefile	/^  PROGRAM = $(word $(words $(CUR_PATH_NAMES)),$(CUR_PATH_NAMES))$/;"	m
+PROGRAM	prueba/Makefile	/^PROGRAM   = main$/;"	m
+PROGRAM	sdl/Makefile	/^    PROGRAM = demo.out$/;"	m
+PROGRAM	sdl/Makefile	/^  PROGRAM = $(word $(words $(CUR_PATH_NAMES)),$(CUR_PATH_NAMES))$/;"	m
+PROGRAM	sdl/Makefile	/^PROGRAM   = hello$/;"	m
+PROGRAMS	gataka/source/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROGRAMS	gataka/test/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+Player	gataka/source/player.h	/^class Player {$/;"	c
+RECURSION	gol/Makefile	/^RECURSION = 1$/;"	m
+RECURSION	gtk/Makefile	/^RECURSION = 1$/;"	m
+RECURSION	libg2d/tests/Makefile	/^RECURSION = 1$/;"	m
+RECURSION	prueba/Makefile	/^RECURSION = 1$/;"	m
+RECURSION	sdl/Makefile	/^RECURSION = 1$/;"	m
+RECURSIVE_CLEAN_TARGETS	gataka/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	gataka/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+RM	gol/Makefile	/^RM     = rm -f$/;"	m
+RM	gtk/Makefile	/^RM     = rm -f$/;"	m
+RM	libg2d/tests/Makefile	/^RM     = rm -f$/;"	m
+RM	prueba/Makefile	/^RM     = rm -f$/;"	m
+RM	sdl/Makefile	/^RM     = rm -f$/;"	m
+RMDEPS	gol/Makefile	/^RMDEPS  := $(RMOBJS:.o=.d)$/;"	m
+RMDEPS	gtk/Makefile	/^RMDEPS  := $(RMOBJS:.o=.d)$/;"	m
+RMDEPS	libg2d/tests/Makefile	/^RMDEPS  := $(RMOBJS:.o=.d)$/;"	m
+RMDEPS	prueba/Makefile	/^RMDEPS  := $(RMOBJS:.o=.d)$/;"	m
+RMDEPS	sdl/Makefile	/^RMDEPS  := $(RMOBJS:.o=.d)$/;"	m
+RMOBJS	gol/Makefile	/^RMOBJS  := $(addsuffix \/*.o, $(SRCDIRS))$/;"	m
+RMOBJS	gtk/Makefile	/^RMOBJS  := $(addsuffix \/*.o, $(SRCDIRS))$/;"	m
+RMOBJS	libg2d/tests/Makefile	/^RMOBJS  := $(addsuffix \/*.o, $(SRCDIRS))$/;"	m
+RMOBJS	prueba/Makefile	/^RMOBJS  := $(addsuffix \/*.o, $(SRCDIRS))$/;"	m
+RMOBJS	sdl/Makefile	/^RMOBJS  := $(addsuffix \/*.o, $(SRCDIRS))$/;"	m
+Rectangle	examples/GTKGraphicsTest.cpp	/^	public: Rectangle(Color* colorIn, Coords* posIn, Coords* sizeIn)$/;"	f	class:Rectangle
+Rectangle	examples/GTKGraphicsTest.cpp	/^class Rectangle$/;"	c	file:
+SCREEN_HEIGHT	examples/01_hello_SDL/01_hello_SDL.cpp	/^const int SCREEN_HEIGHT = 480;$/;"	v
+SCREEN_HEIGHT	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^const int SCREEN_HEIGHT = 480;$/;"	v
+SCREEN_HEIGHT	gol/source/gol_main.cpp	14;"	d	file:
+SCREEN_HEIGHT	prueba/source/main.cpp	12;"	d	file:
+SCREEN_HEIGHT	sdl/source/hello.cpp	/^const int SCREEN_HEIGHT = 480;$/;"	v
+SCREEN_H_INCLUDED	prueba/include/screen.h	2;"	d
+SCREEN_OPENING_H_INCLUDED	libg2d/include/g2d_screen.h	2;"	d
+SCREEN_OPENING_H_INCLUDED	prueba/include/screen_opening.h	2;"	d
+SCREEN_WIDTH	examples/01_hello_SDL/01_hello_SDL.cpp	/^const int SCREEN_WIDTH = 640;$/;"	v
+SCREEN_WIDTH	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^const int SCREEN_WIDTH = 640;$/;"	v
+SCREEN_WIDTH	gol/source/gol_main.cpp	13;"	d	file:
+SCREEN_WIDTH	prueba/source/main.cpp	11;"	d	file:
+SCREEN_WIDTH	sdl/source/hello.cpp	/^const int SCREEN_WIDTH = 640;$/;"	v
+SET_MAKE	gataka/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	gataka/source/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	gataka/test/Makefile	/^SET_MAKE = $/;"	m
+SHAPE_H_INCLUDED	prueba/include/shape.h	2;"	d
+SHELL	gataka/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	gataka/source/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	gataka/test/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	gol/Makefile	/^SHELL   = \/bin\/bash$/;"	m
+SHELL	gtk/Makefile	/^SHELL   = \/bin\/bash$/;"	m
+SHELL	libg2d/tests/Makefile	/^SHELL   = \/bin\/bash$/;"	m
+SHELL	prueba/Makefile	/^SHELL   = \/bin\/bash$/;"	m
+SHELL	sdl/Makefile	/^SHELL   = \/bin\/bash$/;"	m
+SHOOT_PARAMS_H_INCLUDED	gataka/source/shoot_params.h	2;"	d
+SOURCES	gataka/Makefile	/^SOURCES =$/;"	m
+SOURCES	gataka/source/Makefile	/^SOURCES = $(gataka_SOURCES) $(test_actor_SOURCES) \\$/;"	m
+SOURCES	gataka/test/Makefile	/^SOURCES = $(actor_SOURCES)$/;"	m
+SOURCES	gol/Makefile	/^SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(SRCEXTS))))$/;"	m
+SOURCES	gtk/Makefile	/^SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(SRCEXTS))))$/;"	m
+SOURCES	libg2d/tests/Makefile	/^SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(SRCEXTS))))$/;"	m
+SOURCES	prueba/Makefile	/^SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(SRCEXTS))))$/;"	m
+SOURCES	sdl/Makefile	/^SOURCES = $(foreach d,$(SRCDIRS),$(wildcard $(addprefix $(d)\/*,$(SRCEXTS))))$/;"	m
+SPACE	gol/Makefile	/^SPACE   = $(EMPTY) $(EMPTY)$/;"	m
+SPACE	gtk/Makefile	/^SPACE   = $(EMPTY) $(EMPTY)$/;"	m
+SPACE	libg2d/tests/Makefile	/^SPACE   = $(EMPTY) $(EMPTY)$/;"	m
+SPACE	prueba/Makefile	/^SPACE   = $(EMPTY) $(EMPTY)$/;"	m
+SPACE	sdl/Makefile	/^SPACE   = $(EMPTY) $(EMPTY)$/;"	m
+SRCDIR	gol/Makefile	/^SRCDIR    = source$/;"	m
+SRCDIR	gtk/Makefile	/^SRCDIR    = source$/;"	m
+SRCDIR	libg2d/tests/Makefile	/^SRCDIR    = ..\/source$/;"	m
+SRCDIR	prueba/Makefile	/^SRCDIR    = source$/;"	m
+SRCDIR	sdl/Makefile	/^SRCDIR    = source$/;"	m
+SRCDIRS	gol/Makefile	/^  SRCDIRS = .$/;"	m
+SRCDIRS	gol/Makefile	/^SRCDIRS := $(foreach d,$(SRCDIRS),$(d:\/=))$/;"	m
+SRCDIRS	gol/Makefile	/^SRCDIRS := $(shell find $(SRCDIRS) -type d | grep \\\\.git -v)$/;"	m
+SRCDIRS	gol/Makefile	/^SRCDIRS := $(sort $(SRCDIRS))$/;"	m
+SRCDIRS	gol/Makefile	/^SRCDIRS := $(strip $(SRCROOT) $(SRCDIR))$/;"	m
+SRCDIRS	gtk/Makefile	/^  SRCDIRS = .$/;"	m
+SRCDIRS	gtk/Makefile	/^SRCDIRS := $(foreach d,$(SRCDIRS),$(d:\/=))$/;"	m
+SRCDIRS	gtk/Makefile	/^SRCDIRS := $(shell find $(SRCDIRS) -type d | grep \\\\.git -v)$/;"	m
+SRCDIRS	gtk/Makefile	/^SRCDIRS := $(sort $(SRCDIRS))$/;"	m
+SRCDIRS	gtk/Makefile	/^SRCDIRS := $(strip $(SRCROOT) $(SRCDIR))$/;"	m
+SRCDIRS	libg2d/tests/Makefile	/^  SRCDIRS = .$/;"	m
+SRCDIRS	libg2d/tests/Makefile	/^SRCDIRS := $(foreach d,$(SRCDIRS),$(d:\/=))$/;"	m
+SRCDIRS	libg2d/tests/Makefile	/^SRCDIRS := $(shell find $(SRCDIRS) -type d | grep \\\\.git -v)$/;"	m
+SRCDIRS	libg2d/tests/Makefile	/^SRCDIRS := $(sort $(SRCDIRS))$/;"	m
+SRCDIRS	libg2d/tests/Makefile	/^SRCDIRS := $(strip $(SRCROOT) $(SRCDIR))$/;"	m
+SRCDIRS	prueba/Makefile	/^  SRCDIRS = .$/;"	m
+SRCDIRS	prueba/Makefile	/^SRCDIRS := $(foreach d,$(SRCDIRS),$(d:\/=))$/;"	m
+SRCDIRS	prueba/Makefile	/^SRCDIRS := $(shell find $(SRCDIRS) -type d | grep \\\\.git -v)$/;"	m
+SRCDIRS	prueba/Makefile	/^SRCDIRS := $(sort $(SRCDIRS))$/;"	m
+SRCDIRS	prueba/Makefile	/^SRCDIRS := $(strip $(SRCROOT) $(SRCDIR))$/;"	m
+SRCDIRS	sdl/Makefile	/^  SRCDIRS = .$/;"	m
+SRCDIRS	sdl/Makefile	/^SRCDIRS := $(foreach d,$(SRCDIRS),$(d:\/=))$/;"	m
+SRCDIRS	sdl/Makefile	/^SRCDIRS := $(shell find $(SRCDIRS) -type d | grep \\\\.git -v)$/;"	m
+SRCDIRS	sdl/Makefile	/^SRCDIRS := $(sort $(SRCDIRS))$/;"	m
+SRCDIRS	sdl/Makefile	/^SRCDIRS := $(strip $(SRCROOT) $(SRCDIR))$/;"	m
+SRCEXTS	gol/Makefile	/^SRCEXTS = .c .C .cc .cpp .CPP .c++ .cxx .cp$/;"	m
+SRCEXTS	gtk/Makefile	/^SRCEXTS = .c .C .cc .cpp .CPP .c++ .cxx .cp$/;"	m
+SRCEXTS	libg2d/tests/Makefile	/^SRCEXTS = .c .C .cc .cpp .CPP .c++ .cxx .cp$/;"	m
+SRCEXTS	prueba/Makefile	/^SRCEXTS = .c .C .cc .cpp .CPP .c++ .cxx .cp$/;"	m
+SRCEXTS	sdl/Makefile	/^SRCEXTS = .c .C .cc .cpp .CPP .c++ .cxx .cp$/;"	m
+SRCROOT	gol/Makefile	/^SRCROOT   = source$/;"	m
+SRCROOT	gol/Makefile	/^SRCROOT := $(foreach d,$(SRCROOT),$(d:\/=))$/;"	m
+SRCROOT	gtk/Makefile	/^SRCROOT   = source$/;"	m
+SRCROOT	gtk/Makefile	/^SRCROOT := $(foreach d,$(SRCROOT),$(d:\/=))$/;"	m
+SRCROOT	libg2d/tests/Makefile	/^SRCROOT   = source$/;"	m
+SRCROOT	libg2d/tests/Makefile	/^SRCROOT := $(foreach d,$(SRCROOT),$(d:\/=))$/;"	m
+SRCROOT	prueba/Makefile	/^SRCROOT   = source$/;"	m
+SRCROOT	prueba/Makefile	/^SRCROOT := $(foreach d,$(SRCROOT),$(d:\/=))$/;"	m
+SRCROOT	sdl/Makefile	/^SRCROOT   = source$/;"	m
+SRCROOT	sdl/Makefile	/^SRCROOT := $(foreach d,$(SRCROOT),$(d:\/=))$/;"	m
+SRC_CXX	gol/Makefile	/^SRC_CXX = $(filter-out %.c,$(SOURCES))$/;"	m
+SRC_CXX	gtk/Makefile	/^SRC_CXX = $(filter-out %.c,$(SOURCES))$/;"	m
+SRC_CXX	libg2d/tests/Makefile	/^SRC_CXX = $(filter-out %.c,$(SOURCES))$/;"	m
+SRC_CXX	prueba/Makefile	/^SRC_CXX = $(filter-out %.c,$(SOURCES))$/;"	m
+SRC_CXX	sdl/Makefile	/^SRC_CXX = $(filter-out %.c,$(SOURCES))$/;"	m
+STRIP	gataka/Makefile	/^STRIP = $/;"	m
+STRIP	gataka/source/Makefile	/^STRIP = $/;"	m
+STRIP	gataka/test/Makefile	/^STRIP = $/;"	m
+SUBDIRS	gataka/Makefile	/^SUBDIRS = source$/;"	m
+Screen	prueba/include/screen.h	/^	inline Screen(uint8_t id) {$/;"	f	class:Screen
+Screen	prueba/include/screen.h	/^class Screen {$/;"	c
+Screen_opening	prueba/include/screen_opening.h	/^class Screen_opening : public Screen {$/;"	c
+Screen_opening	prueba/source/screen_opening.cpp	/^Screen_opening::Screen_opening(uint8_t id) : Screen(id)$/;"	f	class:Screen_opening
+Shape	prueba/include/shape.h	/^	Shape() {$/;"	f	class:Shape
+Shape	prueba/include/shape.h	/^	Shape(shape_type_t type, uint16_t a) {$/;"	f	class:Shape
+Shape	prueba/include/shape.h	/^	Shape(shape_type_t type, uint16_t a, uint16_t b) {$/;"	f	class:Shape
+Shape	prueba/include/shape.h	/^class Shape {$/;"	c
+VERSION	gataka/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	gataka/config.h	26;"	d
+VERSION	gataka/source/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	gataka/test/Makefile	/^VERSION = 1.0$/;"	m
+abs_builddir	gataka/Makefile	/^abs_builddir = \/home\/bret\/workspace\/plus_ultra\/gataka$/;"	m
+abs_builddir	gataka/source/Makefile	/^abs_builddir = \/home\/bret\/workspace\/plus_ultra\/gataka\/source$/;"	m
+abs_builddir	gataka/test/Makefile	/^abs_builddir = \/home\/bret\/workspace\/plus_ultra\/gataka\/test$/;"	m
+abs_srcdir	gataka/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/plus_ultra\/gataka$/;"	m
+abs_srcdir	gataka/source/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/plus_ultra\/gataka\/source$/;"	m
+abs_srcdir	gataka/test/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/plus_ultra\/gataka\/test$/;"	m
+abs_top_builddir	gataka/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/plus_ultra\/gataka$/;"	m
+abs_top_builddir	gataka/source/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/plus_ultra\/gataka$/;"	m
+abs_top_builddir	gataka/test/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/plus_ultra\/gataka$/;"	m
+abs_top_srcdir	gataka/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/plus_ultra\/gataka$/;"	m
+abs_top_srcdir	gataka/source/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/plus_ultra\/gataka$/;"	m
+abs_top_srcdir	gataka/test/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/plus_ultra\/gataka$/;"	m
+ac_ct_CC	gataka/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	gataka/source/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	gataka/test/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	gataka/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	gataka/source/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	gataka/test/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_fn_c_try_compile	gataka/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_cxx_try_compile	gataka/configure	/^ac_fn_cxx_try_compile ()$/;"	f
+act	gataka/source/actor_bullet.h	/^	void act()$/;"	f	class:ActorBullet
+act	gataka/source/actor_ship.h	/^	void act()$/;"	f	class:ActorShip
+act	gataka/source/test_actor.cpp	/^	void act()$/;"	f	class:BadActor
+actor_LDADD	gataka/test/Makefile	/^actor_LDADD = $(LDADD)$/;"	m
+actor_OBJECTS	gataka/test/Makefile	/^actor_OBJECTS = $(am_actor_OBJECTS)$/;"	m
+actor_SOURCES	gataka/test/Makefile	/^actor_SOURCES = actor.cpp$/;"	m
+aix_post_process_depfile	gataka/depcomp	/^aix_post_process_depfile ()$/;"	f
+am__CONFIG_DISTCLEAN_FILES	gataka/Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__DIST_COMMON	gataka/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/config.h.in COPYING \\$/;"	m
+am__DIST_COMMON	gataka/source/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp README$/;"	m
+am__DIST_COMMON	gataka/test/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__aclocal_m4_deps	gataka/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	gataka/source/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	gataka/test/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__base_list	gataka/Makefile	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	gataka/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	gataka/source/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	gataka/test/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	gataka/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	gataka/source/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	gataka/test/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	gataka/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	gataka/source/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	gataka/test/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	gataka/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	gataka/source/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	gataka/test/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	gataka/source/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	gataka/test/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	gataka/Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	gataka/Makefile	/^am__include = include$/;"	m
+am__include	gataka/source/Makefile	/^am__include = include$/;"	m
+am__include	gataka/test/Makefile	/^am__include = include$/;"	m
+am__install_max	gataka/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	gataka/Makefile	/^am__installdirs = "$(DESTDIR)$(docdir)"$/;"	m
+am__installdirs	gataka/source/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__installdirs	gataka/test/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	gataka/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	gataka/source/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	gataka/test/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__leading_dot	gataka/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	gataka/source/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	gataka/test/Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	gataka/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	gataka/source/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	gataka/test/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	gataka/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	gataka/source/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	gataka/test/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	gataka/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	gataka/source/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	gataka/test/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	gataka/source/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	gataka/test/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	gataka/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	gataka/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	gataka/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__post_remove_distdir	gataka/Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	gataka/Makefile	/^am__quote = $/;"	m
+am__quote	gataka/source/Makefile	/^am__quote = $/;"	m
+am__quote	gataka/test/Makefile	/^am__quote = $/;"	m
+am__recursive_targets	gataka/Makefile	/^am__recursive_targets = \\$/;"	m
+am__relativize	gataka/Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	gataka/Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	gataka/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tagged_files	gataka/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tagged_files	gataka/source/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	gataka/test/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	gataka/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	gataka/source/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	gataka/test/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uninstall_files_from_dir	gataka/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uniquify_input	gataka/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	gataka/source/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	gataka/test/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	gataka/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	gataka/source/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	gataka/test/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CXXLD_	gataka/source/Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_	gataka/test/Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_0	gataka/source/Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_0	gataka/test/Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	gataka/source/Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXXLD_1	gataka/test/Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	gataka/source/Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_	gataka/test/Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_0	gataka/source/Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_0	gataka/test/Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	gataka/source/Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_CXX_1	gataka/test/Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	gataka/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	gataka/source/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	gataka/test/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	gataka/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	gataka/source/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	gataka/test/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	gataka/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	gataka/source/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	gataka/test/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	gataka/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	gataka/source/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	gataka/test/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	gataka/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	gataka/source/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	gataka/test/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	gataka/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	gataka/source/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	gataka/test/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	gataka/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	gataka/source/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	gataka/test/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	gataka/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	gataka/source/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	gataka/test/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	gataka/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	gataka/source/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	gataka/test/Makefile	/^am__v_at_1 = $/;"	m
+am__vpath_adj	gataka/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	gataka/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_actor_OBJECTS	gataka/test/Makefile	/^am_actor_OBJECTS = actor.$(OBJEXT)$/;"	m
+am_gataka_OBJECTS	gataka/source/Makefile	/^am_gataka_OBJECTS = gataka.$(OBJEXT)$/;"	m
+am_test_actor_OBJECTS	gataka/source/Makefile	/^am_test_actor_OBJECTS = test_actor.$(OBJEXT)$/;"	m
+am_test_coordinates_OBJECTS	gataka/source/Makefile	/^am_test_coordinates_OBJECTS = test_coordinates.$(OBJEXT)$/;"	m
+angle	gataka/source/actor_bullet.h	/^	double angle;  \/*< Angle of movement *\/$/;"	m	class:ActorBullet
+angle	gataka/source/actor_ship.h	/^	double angle;$/;"	m	class:ActorShip
+angle	gataka/source/shoot_params.h	/^ 	double angle;  \/**< Initial angle *\/$/;"	m	struct:shoot_params_t
+as_fn_append	gataka/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	gataka/configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	gataka/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	gataka/configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	gataka/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	gataka/configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	gataka/config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	gataka/configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	gataka/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	gataka/configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	gataka/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	gataka/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	gataka/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	gataka/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	gataka/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	gataka/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	gataka/configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	gataka/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	gataka/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	gataka/configure	/^as_fn_unset ()$/;"	f
+atomicSoftTabs	tools/atom/config.cson	/^    atomicSoftTabs: false$/;"	f
+attack	gataka/source/bullet_params.h	/^	int attack;   \/**< Attack: Basic damage that deals to ships *\/$/;"	m	struct:bullet_params_t
+better-git-blame	tools/atom/config.cson	/^  "better-git-blame":$/;"	f
+bin_PROGRAMS	gataka/source/Makefile	/^bin_PROGRAMS = test_actor$(EXEEXT) gataka$(EXEEXT) \\$/;"	m
+bin_PROGRAMS	gataka/test/Makefile	/^bin_PROGRAMS = actor$(EXEEXT)$/;"	m
+bindir	gataka/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	gataka/source/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	gataka/test/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+blue	examples/GTKGraphicsTest.cpp	/^		double blue;$/;"	m	class:Color	file:
+body	tools/atom/keymap.cson	/^'body':$/;"	f
+bpar	gataka/source/actor_ship.h	/^	bullet_params_t bpar;$/;"	m	class:ActorShip
+build_alias	gataka/Makefile	/^build_alias = $/;"	m
+build_alias	gataka/source/Makefile	/^build_alias = $/;"	m
+build_alias	gataka/test/Makefile	/^build_alias = $/;"	m
+builddir	gataka/Makefile	/^builddir = .$/;"	m
+builddir	gataka/source/Makefile	/^builddir = .$/;"	m
+builddir	gataka/test/Makefile	/^builddir = .$/;"	m
+bullet_params_copy	gataka/source/bullet_params.h	/^void bullet_params_copy(const bullet_params_t& from,  bullet_params_t& to)$/;"	f
+bullet_params_t	gataka/source/bullet_params.h	/^typedef struct bullet_params_t {$/;"	s
+bullet_params_t	gataka/source/bullet_params.h	/^} bullet_params_t;$/;"	t	typeref:struct:bullet_params_t
+buttons	prueba/include/screen_opening.h	/^	Button buttons[2];                       \/**< On-screen buttons *\/$/;"	m	class:Screen_opening
+buttons_shape	prueba/include/screen_opening.h	/^	Shape buttons_shape;                     \/**< Same shape for all buttons *\/$/;"	m	class:Screen_opening
+c	gataka/source/shoot_params.h	/^ 	Coordinates c; \/**< Initial coordinates *\/$/;"	m	struct:shoot_params_t
+clean_local	tools/git/clean.sh	/^clean_local() {$/;"	f
+clean_local	tools/git/synch.sh	/^clean_local() {$/;"	f
+close	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^void close()$/;"	f
+close	gol/source/gol_main.cpp	/^void close()$/;"	f
+close	prueba/source/main.cpp	/^void close()$/;"	f
+close	sdl/source/hello.cpp	/^void close()$/;"	f
+clr	gol/include/gol.h	/^	inline void clr(Coordinates c)$/;"	f	class:Gol
+color	examples/GTKGraphicsTest.cpp	/^	public: Color* color;$/;"	m	class:Rectangle	file:
+coordinates	gataka/source/actor.h	/^	Coordinates coordinates; \/*< coordinates of the actor. Thread safe *\/$/;"	m	class:Actor
+core	tools/atom/config.cson	/^  core:$/;"	f
+ctrl-alt-pagedown	tools/atom/keymap.cson	/^  'ctrl-alt-pagedown': 'window:focus-pane-on-right'$/;"	f
+ctrl-alt-pageup	tools/atom/keymap.cson	/^  'ctrl-alt-pageup': 'window:focus-pane-on-left'$/;"	f
+current_world	gol/include/gol.h	/^	bool current_world;$/;"	m	class:Gol
+datadir	gataka/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	gataka/source/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	gataka/test/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	gataka/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	gataka/source/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	gataka/test/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+delete_event	gtk/source/hello.cpp	/^static gboolean delete_event( GtkWidget *widget,$/;"	f	file:
+depcomp	gataka/source/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	gataka/test/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+destroy	gtk/source/hello.cpp	/^static void destroy( GtkWidget *widget,$/;"	f	file:
+dist_doc_DATA	gataka/Makefile	/^dist_doc_DATA = README$/;"	m
+distcleancheck_listfiles	gataka/Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	gataka/Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	gataka/Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	gataka/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	gataka/source/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	gataka/test/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+drawRectangle	examples/GTKGraphicsTest.cpp	/^	public: void drawRectangle(Rectangle* rectangle)$/;"	f	class:DisplayHelper
+drawingArea	examples/GTKGraphicsTest.cpp	/^	protected: DrawingArea drawingArea;$/;"	m	class:GTKGraphicsTest	file:
+drawingAreaExposed	examples/GTKGraphicsTest.cpp	/^	protected: bool drawingAreaExposed(GdkEventExpose* event)$/;"	f	class:GTKGraphicsTest
+dvidir	gataka/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	gataka/source/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	gataka/test/Makefile	/^dvidir = ${docdir}$/;"	m
+editor	tools/atom/config.cson	/^  editor:$/;"	f
+en_end	libg2d/include/g2d_engine.h	/^	std::chrono::time_point<std::chrono::system_clock> en_end;   \/**< end time *\/$/;"	m	class:g2d_engine_t
+en_period	libg2d/include/g2d_engine.h	/^	uint16_t     en_period; \/**< Period between runs *\/$/;"	m	class:g2d_engine_t
+en_sleep	libg2d/include/g2d_engine.h	/^	int16_t       en_sleep; \/**< For thread sleep *\/$/;"	m	class:g2d_engine_t
+en_start	libg2d/include/g2d_engine.h	/^	std::chrono::time_point<std::chrono::system_clock> en_start; \/**< start time *\/$/;"	m	class:g2d_engine_t
+ev_end	libg2d/include/g2d_engine.h	/^	std::chrono::time_point<std::chrono::system_clock> ev_end;   \/**< end time *\/$/;"	m	class:g2d_engine_t
+ev_period	libg2d/include/g2d_engine.h	/^	uint16_t    ev_period; \/**< Period between runs *\/$/;"	m	class:g2d_engine_t
+ev_sleep	libg2d/include/g2d_engine.h	/^	int16_t      ev_sleep; \/**< For thread sleep *\/$/;"	m	class:g2d_engine_t
+ev_stack	libg2d/include/g2d_engine.h	/^	std::queue <SDL_Event> ev_stack; \/**< FIFO of events *\/$/;"	m	class:g2d_engine_t
+ev_start	libg2d/include/g2d_engine.h	/^	std::chrono::time_point<std::chrono::system_clock> ev_start; \/**< start time *\/$/;"	m	class:g2d_engine_t
+event	prueba/source/screen_opening.cpp	/^void Screen_opening::event(SDL_Event *event)$/;"	f	class:Screen_opening
+exception-reporting	tools/atom/config.cson	/^  "exception-reporting":$/;"	f
+exceptions	gataka/source/exceptions.h	/^namespace exceptions$/;"	n
+exec_prefix	gataka/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	gataka/source/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	gataka/test/Makefile	/^exec_prefix = ${prefix}$/;"	m
+font	prueba/include/button.h	/^	TTF_Font* font;    \/**< Message font *\/$/;"	m	class:Button
+fontSize	tools/atom/config.cson	/^    fontSize: 13$/;"	f
+free	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^void LTexture::free()$/;"	f	class:LTexture
+func_cl_dashL	gataka/compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	gataka/compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	gataka/compile	/^func_cl_wrapper ()$/;"	f
+func_file_conv	gataka/compile	/^func_file_conv ()$/;"	f
+g2d_engine_screen_push	libg2d/source/g2d_engine.cpp	/^void g2d_engine_t::g2d_engine_screen_push(g2d_screen_t *scr)$/;"	f	class:g2d_engine_t
+g2d_engine_start	libg2d/source/g2d_engine.cpp	/^void g2d_engine_t::g2d_engine_start()$/;"	f	class:g2d_engine_t
+g2d_engine_t	libg2d/include/g2d_engine.h	/^class g2d_engine_t {$/;"	c
+g2d_engine_t	libg2d/source/g2d_engine.cpp	/^g2d_engine_t::g2d_engine_t()$/;"	f	class:g2d_engine_t
+g2d_engine_t	libg2d/source/g2d_engine.cpp	/^g2d_engine_t::g2d_engine_t(SDL_Renderer *r) : g2d_engine_t$/;"	f	class:g2d_engine_t
+g2d_engine_torun	libg2d/source/g2d_engine.cpp	/^bool g2d_engine_t::g2d_engine_torun()$/;"	f	class:g2d_engine_t
+g2d_ev_engine_torun	libg2d/source/g2d_engine.cpp	/^bool g2d_engine_t::g2d_ev_engine_torun()$/;"	f	class:g2d_engine_t
+g2d_ev_sleep_period_get	libg2d/include/g2d_engine.h	/^	uint16_t g2d_ev_sleep_period_get()$/;"	f	class:g2d_engine_t
+g2d_ev_sleep_period_update	libg2d/source/g2d_engine.cpp	/^void g2d_engine_t::g2d_ev_sleep_period_update()$/;"	f	class:g2d_engine_t
+g2d_screen_t	libg2d/include/g2d_screen.h	/^class g2d_screen_t {$/;"	c
+g2d_screen_t	libg2d/include/g2d_screen.h	/^g2d_screen_t() {$/;"	f	class:g2d_screen_t
+g2d_sleep_period_get	libg2d/include/g2d_engine.h	/^	uint16_t g2d_sleep_period_get()$/;"	f	class:g2d_engine_t
+g2d_sleep_period_update	libg2d/source/g2d_engine.cpp	/^void g2d_engine_t::g2d_sleep_period_update()$/;"	f	class:g2d_engine_t
+gFont	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^TTF_Font *gFont = NULL;$/;"	v
+gRenderer	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^SDL_Renderer* gRenderer = NULL;$/;"	v
+gRenderer	gol/source/gol_main.cpp	/^SDL_Renderer* gRenderer = NULL; \/\/The window renderer$/;"	v
+gRenderer	prueba/source/main.cpp	/^SDL_Renderer* gRenderer = NULL; \/\/The window renderer$/;"	v
+gRenderer	sdl/source/hello.cpp	/^SDL_Renderer* gRenderer = NULL;$/;"	v
+gTextTexture	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^LTexture gTextTexture;$/;"	v
+gWindow	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^SDL_Window* gWindow = NULL;$/;"	v
+gWindow	sdl/source/hello.cpp	/^SDL_Window* gWindow = NULL;$/;"	v
+gataka_LDADD	gataka/source/Makefile	/^gataka_LDADD = $(LDADD)$/;"	m
+gataka_OBJECTS	gataka/source/Makefile	/^gataka_OBJECTS = $(am_gataka_OBJECTS)$/;"	m
+gataka_SOURCES	gataka/source/Makefile	/^gataka_SOURCES = gataka.cpp$/;"	m
+gc	gol/source/gol.cpp	/^void Gol::gc()$/;"	f	class:Gol
+generate	gol/source/gol.cpp	/^void Gol::generate(int life)$/;"	f	class:Gol
+getBulletParams	gataka/source/actor_ship.h	/^	const bullet_params_t& getBulletParams() const$/;"	f	class:ActorShip
+getH	gol/include/gol.h	/^	inline int getH()$/;"	f	class:Gol
+getHeight	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^int LTexture::getHeight()$/;"	f	class:LTexture
+getID	prueba/include/screen.h	/^	inline uint8_t getID() {$/;"	f	class:Screen
+getId	gataka/source/actor.h	/^	inline long getId()$/;"	f	class:Actor
+getIdCounter	gataka/source/actor.h	/^	static inline long getIdCounter()$/;"	f	class:Actor
+getScreen	gol/include/gol.h	/^	inline screen_t getScreen()$/;"	f	class:Gol
+getW	gol/include/gol.h	/^	inline int getW()$/;"	f	class:Gol
+getWidth	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^int LTexture::getWidth()$/;"	f	class:LTexture
+getX	gataka/source/actor.h	/^	inline unsigned int getX()$/;"	f	class:Actor
+getX	gataka/source/coordinates.h	/^	inline unsigned int getX() const$/;"	f	class:Coordinates
+getY	gataka/source/actor.h	/^	inline unsigned int getY()$/;"	f	class:Actor
+getY	gataka/source/coordinates.h	/^	inline unsigned int getY() const$/;"	f	class:Coordinates
+give_advice	gataka/missing	/^give_advice ()$/;"	f
+gol_main_get_rule2initial	gol/source/gol_main.cpp	/^unsigned int gol_main_get_rule2initial(rule_set_t rule_set)$/;"	f
+graphics	examples/GTKGraphicsTest.cpp	/^	private: Cairo::RefPtr graphics;$/;"	m	class:DisplayHelper	file:
+green	examples/GTKGraphicsTest.cpp	/^		double green;$/;"	m	class:Color	file:
+height	gol/include/gol.h	/^	unsigned int width, height;$/;"	m	class:Gol
+hello	gtk/source/hello.cpp	/^static void hello( GtkWidget *widget,$/;"	f	file:
+host_alias	gataka/Makefile	/^host_alias = $/;"	m
+host_alias	gataka/source/Makefile	/^host_alias = $/;"	m
+host_alias	gataka/test/Makefile	/^host_alias = $/;"	m
+htmldir	gataka/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	gataka/source/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	gataka/test/Makefile	/^htmldir = ${docdir}$/;"	m
+id	gataka/source/actor.h	/^	long id;                 \/*< Identifier, unique for every actor *\/$/;"	m	class:Actor
+id	prueba/include/screen.h	/^	uint8_t id; \/**< Screen identifier *\/$/;"	m	class:Screen
+idCounter	gataka/source/actor.h	/^	static std::atomic_long idCounter;   \/*< Actor counter. Thread safe *\/$/;"	m	class:Actor
+inc_life	gol/source/gol.cpp	/^void Gol::inc_life(bool **c_world, unsigned int c, unsigned int r,$/;"	f	class:Gol
+includedir	gataka/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	gataka/source/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	gataka/test/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	gataka/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	gataka/source/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	gataka/test/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^bool init()$/;"	f
+init	gol/source/gol_main.cpp	/^static bool init()$/;"	f	file:
+init	prueba/source/main.cpp	/^static bool init()$/;"	f	file:
+init	sdl/source/hello.cpp	/^bool init()$/;"	f
+initialize	examples/GTKGraphicsTest.cpp	/^	public: void initialize(Coords* viewSizeInPixelsIn, DrawingArea* drawingArea)$/;"	f	class:DisplayHelper
+install_sh	gataka/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/install-sh$/;"	m
+install_sh	gataka/source/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/install-sh$/;"	m
+install_sh	gataka/test/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/plus_ultra\/gataka\/install-sh$/;"	m
+install_sh_DATA	gataka/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	gataka/source/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	gataka/test/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	gataka/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	gataka/source/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	gataka/test/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	gataka/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	gataka/source/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	gataka/test/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+is_inside	prueba/include/button.h	/^	bool is_inside(uint16_t x, uint16_t y) {$/;"	f	class:Button
+is_inside	prueba/include/shape.h	/^	 bool is_inside(int32_t x, int32_t y) {$/;"	f	class:Shape
+libdir	gataka/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	gataka/source/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	gataka/test/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	gataka/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	gataka/source/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	gataka/test/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+loadFromFile	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^bool LTexture::loadFromFile( std::string path )$/;"	f	class:LTexture
+loadFromRenderedText	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^bool LTexture::loadFromRenderedText( std::string textureText, SDL_Color textColor )$/;"	f	class:LTexture
+loadMedia	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^bool loadMedia()$/;"	f
+loadMedia	sdl/source/hello.cpp	/^bool loadMedia()$/;"	f
+loadTexture	sdl/source/hello.cpp	/^SDL_Texture* loadTexture( std::string path )$/;"	f
+localedir	gataka/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	gataka/source/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	gataka/test/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	gataka/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	gataka/source/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	gataka/test/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+mHeight	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^		int mHeight;$/;"	m	class:LTexture	file:
+mTexture	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^		SDL_Texture* mTexture;$/;"	m	class:LTexture	file:
+mWidth	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^		int mWidth;$/;"	m	class:LTexture	file:
+main	examples/01_hello_SDL/01_hello_SDL.cpp	/^int main( int argc, char* args[] )$/;"	f
+main	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^int main( int argc, char* args[] )$/;"	f
+main	examples/GTKGraphicsTest.cpp	/^int main (int argc, char *argv[])$/;"	f
+main	gataka/source/gataka.cpp	/^int main()$/;"	f
+main	gataka/source/test_actor.cpp	/^int main()$/;"	f
+main	gataka/source/test_coordinates.cpp	/^int main()$/;"	f
+main	gol/source/gol_main.cpp	/^int main(int argc, char* args[])$/;"	f
+main	gtk/source/hello.cpp	/^int main( int   argc,$/;"	f
+main	libg2d/tests/sdltest.cpp	/^int main()$/;"	f
+main	libg2d/tests/source/g2d_test_engine.cpp	/^int main()$/;"	f
+main	prueba/source/main.cpp	/^int main()$/;"	f
+main	sdl/source/hello.cpp	/^int main( int argc, char* args[] )$/;"	f
+make_dummy_depfile	gataka/depcomp	/^make_dummy_depfile ()$/;"	f
+mandir	gataka/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	gataka/source/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	gataka/test/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+math_utils	gataka/source/math_utils.h	/^namespace math_utils$/;"	n
+message	gataka/source/exceptions.h	/^	const static inline std::string message(const char* ch, std::string file,$/;"	f	namespace:exceptions
+mkdir_p	gataka/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	gataka/source/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	gataka/test/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	gataka/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	gataka/source/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	gataka/test/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+move	gataka/source/actor_bullet.h	/^	void move()$/;"	f	class:ActorBullet
+multiply	examples/GTKGraphicsTest.cpp	/^	public: Coords* multiply(Coords* other)$/;"	f	class:Coords
+oldincludedir	gataka/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	gataka/source/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	gataka/test/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+operator +=	gataka/source/coordinates.h	/^	Coordinates& operator+=(const Coordinates& c)$/;"	f	class:Coordinates
+operator <<	gataka/source/actor.h	/^std::ostream& operator<<(std::ostream& os, const Actor &a)$/;"	f
+operator <<	gataka/source/actor_bullet.h	/^std::ostream& operator<<(std::ostream& os, const ActorBullet &ab)$/;"	f
+operator <<	gataka/source/actor_ship.h	/^std::ostream& operator<<(std::ostream& os, const ActorShip &as)$/;"	f
+operator <<	gataka/source/bullet_params.h	/^std::ostream& operator<<(std::ostream& os, const bullet_params_t &bp)$/;"	f
+operator <<	gataka/source/coordinates.h	/^std::ostream& operator<<(std::ostream& os, const Coordinates &c)$/;"	f
+operator <<	gataka/source/shoot_params.h	/^ std::ostream& operator<<(std::ostream& os, const shoot_params_t &sp)$/;"	f
+operator =	gataka/source/coordinates.h	/^	 Coordinates& operator=(const Coordinates& c)$/;"	f	class:Coordinates
+option_selected	prueba/include/screen_opening.h	/^	screen_opening_option_t option_selected; \/**< Selected option *\/$/;"	m	class:Screen_opening
+paint	prueba/include/button.h	/^	void paint(SDL_Renderer *gRenderer) {$/;"	f	class:Button
+paint	prueba/include/shape.h	/^ 	void paint(SDL_Renderer *gRenderer, uint16_t x, uint16_t y, SDL_Texture *t) {$/;"	f	class:Shape
+paint	prueba/source/screen_opening.cpp	/^void Screen_opening::paint(SDL_Renderer *gRenderer)$/;"	f	class:Screen_opening
+paint_screen	gol/source/gol.cpp	/^void Gol::paint_screen(SDL_Renderer* gRenderer)$/;"	f	class:Gol
+paint_screen_gol	gol/source/gol.cpp	/^void Gol::paint_screen_gol(SDL_Renderer* gRenderer)$/;"	f	class:Gol
+paint_screen_init	gol/source/gol.cpp	/^void Gol::paint_screen_init(SDL_Renderer* gRenderer)$/;"	f	class:Gol
+par	gataka/source/actor_bullet.h	/^	bullet_params_t par; \/**< Bullet parameters *\/$/;"	m	class:ActorBullet
+pdfdir	gataka/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	gataka/source/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	gataka/test/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	gataka/Makefile	/^pkgdatadir = $(datadir)\/gataka$/;"	m
+pkgdatadir	gataka/source/Makefile	/^pkgdatadir = $(datadir)\/gataka$/;"	m
+pkgdatadir	gataka/test/Makefile	/^pkgdatadir = $(datadir)\/gataka$/;"	m
+pkgincludedir	gataka/Makefile	/^pkgincludedir = $(includedir)\/gataka$/;"	m
+pkgincludedir	gataka/source/Makefile	/^pkgincludedir = $(includedir)\/gataka$/;"	m
+pkgincludedir	gataka/test/Makefile	/^pkgincludedir = $(includedir)\/gataka$/;"	m
+pkglibdir	gataka/Makefile	/^pkglibdir = $(libdir)\/gataka$/;"	m
+pkglibdir	gataka/source/Makefile	/^pkglibdir = $(libdir)\/gataka$/;"	m
+pkglibdir	gataka/test/Makefile	/^pkglibdir = $(libdir)\/gataka$/;"	m
+pkglibexecdir	gataka/Makefile	/^pkglibexecdir = $(libexecdir)\/gataka$/;"	m
+pkglibexecdir	gataka/source/Makefile	/^pkglibexecdir = $(libexecdir)\/gataka$/;"	m
+pkglibexecdir	gataka/test/Makefile	/^pkglibexecdir = $(libexecdir)\/gataka$/;"	m
+popShoot	gataka/source/actor_ship.h	/^	shoot_params_t popShoot()$/;"	f	class:ActorShip
+pos	examples/GTKGraphicsTest.cpp	/^	public: Coords* pos;$/;"	m	class:Rectangle	file:
+prefix	gataka/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	gataka/source/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	gataka/test/Makefile	/^prefix = \/usr\/local$/;"	m
+print	gataka/source/actor.h	/^	void print(std::ostream& os) const$/;"	f	class:Actor
+program_details	gataka/missing	/^program_details ()$/;"	f
+program_transform_name	gataka/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	gataka/source/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	gataka/test/Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	gataka/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	gataka/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	gataka/source/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	gataka/test/Makefile	/^psdir = ${docdir}$/;"	m
+push_filetype	tools/automake/update_makefile.sh	/^push_filetype() {$/;"	f
+push_filetype	tools/git/add2gitignore.sh	/^push_filetype() {$/;"	f
+radius	prueba/include/shape.h	/^		uint16_t radius;$/;"	m	union:Shape::__anon1
+random	examples/GTKGraphicsTest.cpp	/^		public: Color* random()$/;"	f	class:Color
+random	examples/GTKGraphicsTest.cpp	/^	public: Coords* random()$/;"	f	class:Coords
+random	examples/GTKGraphicsTest.cpp	/^	public: static double random()$/;"	f	class:MathHelper
+red	examples/GTKGraphicsTest.cpp	/^		double red;$/;"	m	class:Color	file:
+rend	libg2d/include/g2d_engine.h	/^	SDL_Renderer *rend; \/**< Graphics renderer *\/$/;"	m	class:g2d_engine_t
+render	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^void LTexture::render( int x, int y, SDL_Rect* clip, double angle, SDL_Point* center, SDL_RendererFlip flip )$/;"	f	class:LTexture
+rule_set	gol/include/gol.h	/^	rule_set_t rule_set;$/;"	m	class:Gol
+rule_set_amebas	gol/include/gol.h	/^	rule_set_amebas,$/;"	e	enum:rule_set_t
+rule_set_amongus	gol/include/gol.h	/^	rule_set_amongus,$/;"	e	enum:rule_set_t
+rule_set_chromosoma1	gol/include/gol.h	/^	rule_set_chromosoma1,$/;"	e	enum:rule_set_t
+rule_set_chromosoma2	gol/include/gol.h	/^	rule_set_chromosoma2,$/;"	e	enum:rule_set_t
+rule_set_chromosoma3	gol/include/gol.h	/^	rule_set_chromosoma3,$/;"	e	enum:rule_set_t
+rule_set_chromosoma4	gol/include/gol.h	/^	rule_set_chromosoma4,$/;"	e	enum:rule_set_t
+rule_set_classic	gol/include/gol.h	/^	rule_set_classic = 0,$/;"	e	enum:rule_set_t
+rule_set_forest	gol/include/gol.h	/^	rule_set_forest,$/;"	e	enum:rule_set_t
+rule_set_grow_front1	gol/include/gol.h	/^	rule_set_grow_front1,$/;"	e	enum:rule_set_t
+rule_set_grow_front2	gol/include/gol.h	/^	rule_set_grow_front2,$/;"	e	enum:rule_set_t
+rule_set_grow_quick	gol/include/gol.h	/^	rule_set_grow_quick,$/;"	e	enum:rule_set_t
+rule_set_laberinth1	gol/include/gol.h	/^	rule_set_laberinth1,$/;"	e	enum:rule_set_t
+rule_set_laberinth2	gol/include/gol.h	/^	rule_set_laberinth2,$/;"	e	enum:rule_set_t
+rule_set_laberinth3	gol/include/gol.h	/^	rule_set_laberinth3,$/;"	e	enum:rule_set_t
+rule_set_pixelism	gol/include/gol.h	/^	rule_set_pixelism,$/;"	e	enum:rule_set_t
+rule_set_static_gotele	gol/include/gol.h	/^	rule_set_static_gotele,$/;"	e	enum:rule_set_t
+rule_set_static_psico1	gol/include/gol.h	/^	rule_set_static_psico1,$/;"	e	enum:rule_set_t
+rule_set_static_psico2	gol/include/gol.h	/^	rule_set_static_psico2,$/;"	e	enum:rule_set_t
+rule_set_static_rorschach	gol/include/gol.h	/^	rule_set_static_rorschach,$/;"	e	enum:rule_set_t
+rule_set_strange_blood	gol/include/gol.h	/^	rule_set_strange_blood,$/;"	e	enum:rule_set_t
+rule_set_t	gol/include/gol.h	/^typedef enum rule_set_t {$/;"	g
+rule_set_t	gol/include/gol.h	/^} rule_set_t;$/;"	t	typeref:enum:rule_set_t
+run	gol/source/gol.cpp	/^void Gol::run()$/;"	f	class:Gol
+run	prueba/source/screen_opening.cpp	/^void Screen_opening::run()$/;"	f	class:Screen_opening
+runstatedir	gataka/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	gataka/source/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	gataka/test/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+sbindir	gataka/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	gataka/source/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	gataka/test/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+scr_active	libg2d/include/g2d_engine.h	/^	uint8_t                   scr_active; \/**< Active screen *\/$/;"	m	class:g2d_engine_t
+scr_list	libg2d/include/g2d_engine.h	/^	std::vector <g2d_screen_t*> scr_list; \/**< List of screens *\/$/;"	m	class:g2d_engine_t
+screen	gol/include/gol.h	/^	screen_t screen;$/;"	m	class:Gol
+screen_gol	gol/include/gol.h	/^	screen_gol$/;"	e	enum:screen_t
+screen_init	gol/include/gol.h	/^	screen_init,$/;"	e	enum:screen_t
+screen_opening_option_none	prueba/include/screen_opening.h	/^		screen_opening_option_none,$/;"	e	enum:Screen_opening::screen_opening_option_t
+screen_opening_option_play	prueba/include/screen_opening.h	/^		screen_opening_option_play,$/;"	e	enum:Screen_opening::screen_opening_option_t
+screen_opening_option_quit	prueba/include/screen_opening.h	/^		screen_opening_option_quit,$/;"	e	enum:Screen_opening::screen_opening_option_t
+screen_opening_option_t	prueba/include/screen_opening.h	/^	typedef enum screen_opening_option_t {$/;"	g	class:Screen_opening
+screen_opening_option_t	prueba/include/screen_opening.h	/^	} screen_opening_option_t;$/;"	t	class:Screen_opening	typeref:enum:Screen_opening::screen_opening_option_t
+screen_t	gol/include/gol.h	/^typedef enum screen_t {$/;"	g
+screen_t	gol/include/gol.h	/^} screen_t;$/;"	t	typeref:enum:screen_t
+searchInLayerEnabled	tools/atom/config.cson	/^    searchInLayerEnabled: false$/;"	f
+seedRandomizer	examples/GTKGraphicsTest.cpp	/^	public: static void seedRandomizer()$/;"	f	class:MathHelper
+set	gol/include/coordinates.h	/^	inline void set(unsigned int x, unsigned int y)$/;"	f	class:Coordinates
+set	gol/include/gol.h	/^	inline void set(Coordinates c)$/;"	f	class:Gol
+setAlpha	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^void LTexture::setAlpha( Uint8 alpha )$/;"	f	class:LTexture
+setBlendMode	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^void LTexture::setBlendMode( SDL_BlendMode blending )$/;"	f	class:LTexture
+setColor	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^void LTexture::setColor( Uint8 red, Uint8 green, Uint8 blue )$/;"	f	class:LTexture
+setX	gataka/source/actor.h	/^	inline void setX(unsigned int x)$/;"	f	class:Actor
+setX	gataka/source/coordinates.h	/^	inline void setX(unsigned int x)$/;"	f	class:Coordinates
+setY	gataka/source/actor.h	/^	inline void setY(unsigned int y)$/;"	f	class:Actor
+setY	gataka/source/coordinates.h	/^	inline void setY(unsigned int y)$/;"	f	class:Coordinates
+set_base_from	gataka/depcomp	/^set_base_from ()$/;"	f
+set_dir_from	gataka/depcomp	/^set_dir_from ()$/;"	f
+set_or_clr	gol/source/gol.cpp	/^void Gol::set_or_clr(Coordinates c, bool set)$/;"	f	class:Gol
+shape	prueba/include/button.h	/^	Shape *shape;      \/**< Shape pointer *\/$/;"	m	class:Button
+shape_type_circle	prueba/include/shape.h	/^	shape_type_circle,$/;"	e	enum:shape_type_t
+shape_type_point	prueba/include/shape.h	/^	shape_type_point,$/;"	e	enum:shape_type_t
+shape_type_rect	prueba/include/shape.h	/^	shape_type_rect,$/;"	e	enum:shape_type_t
+shape_type_square	prueba/include/shape.h	/^	shape_type_square,$/;"	e	enum:shape_type_t
+shape_type_t	prueba/include/shape.h	/^typedef enum shape_type_t {$/;"	g
+shape_type_t	prueba/include/shape.h	/^} shape_type_t;$/;"	t	typeref:enum:shape_type_t
+sharedstatedir	gataka/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	gataka/source/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	gataka/test/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+shoot	gataka/source/actor_ship.h	/^	void shoot()$/;"	f	class:ActorShip
+shoot_params_t	gataka/source/shoot_params.h	/^ typedef struct shoot_params_t {$/;"	s
+shoot_params_t	gataka/source/shoot_params.h	/^ } shoot_params_t;$/;"	t	typeref:struct:shoot_params_t
+shoots	gataka/source/actor_ship.h	/^	std::queue <shoot_params_t> shoots; \/\/ TODO: thread safe or atomic$/;"	m	class:ActorShip
+shootsInQueue	gataka/source/actor_ship.h	/^	size_t shootsInQueue() const$/;"	f	class:ActorShip
+showInvisibles	tools/atom/config.cson	/^    showInvisibles: true$/;"	f
+showOnStartup	tools/atom/config.cson	/^    showOnStartup: false$/;"	f
+show_usage	gol/source/gol_main.cpp	/^static void show_usage(std::string name)$/;"	f	file:
+side	prueba/include/shape.h	/^		uint16_t side;$/;"	m	union:Shape::__anon1
+sides	prueba/include/shape.h	/^		uint16_t sides[2];$/;"	m	union:Shape::__anon1
+size	examples/GTKGraphicsTest.cpp	/^	public: Coords* size;$/;"	m	class:Rectangle	file:
+softTabs	tools/atom/config.cson	/^    softTabs: false$/;"	f
+speed	gataka/source/bullet_params.h	/^	double speed; \/**< Speed: movement amount every tick *\/$/;"	m	struct:bullet_params_t
+srcdir	gataka/Makefile	/^srcdir = .$/;"	m
+srcdir	gataka/source/Makefile	/^srcdir = .$/;"	m
+srcdir	gataka/test/Makefile	/^srcdir = .$/;"	m
+subdir	gataka/Makefile	/^subdir = .$/;"	m
+subdir	gataka/source/Makefile	/^subdir = source$/;"	m
+subdir	gataka/test/Makefile	/^subdir = test$/;"	m
+synch_local	tools/git/synch.sh	/^synch_local() {$/;"	f
+sysconfdir	gataka/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	gataka/source/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	gataka/test/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tabLength	tools/atom/config.cson	/^    tabLength: 4$/;"	f
+tabType	tools/atom/config.cson	/^    tabType: "hard"$/;"	f
+tardir	gataka/Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	gataka/Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	gataka/Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	gataka/Makefile	/^	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz$/;"	m
+tardir	gataka/Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+target_alias	gataka/Makefile	/^target_alias = $/;"	m
+target_alias	gataka/source/Makefile	/^target_alias = $/;"	m
+target_alias	gataka/test/Makefile	/^target_alias = $/;"	m
+telemetryConsent	tools/atom/config.cson	/^    telemetryConsent: "limited"$/;"	f
+test_actor_LDADD	gataka/source/Makefile	/^test_actor_LDADD = $(LDADD)$/;"	m
+test_actor_OBJECTS	gataka/source/Makefile	/^test_actor_OBJECTS = $(am_test_actor_OBJECTS)$/;"	m
+test_actor_SOURCES	gataka/source/Makefile	/^test_actor_SOURCES = test_actor.cpp$/;"	m
+test_coordinates_LDADD	gataka/source/Makefile	/^test_coordinates_LDADD = $(LDADD)$/;"	m
+test_coordinates_OBJECTS	gataka/source/Makefile	/^test_coordinates_OBJECTS = $(am_test_coordinates_OBJECTS)$/;"	m
+test_coordinates_SOURCES	gataka/source/Makefile	/^test_coordinates_SOURCES = test_coordinates.cpp$/;"	m
+text	prueba/include/button.h	/^	std::string text;  \/**< Button text *\/$/;"	m	class:Button
+toRads	gataka/source/math_utils.h	/^	const static inline double toRads(double sex)$/;"	f	namespace:math_utils
+toSexa	gataka/source/math_utils.h	/^	const static inline double toSexa(double rads)$/;"	f	namespace:math_utils
+to_hex	gol/source/gol.cpp	/^std::string Gol::to_hex()$/;"	f	class:Gol
+to_string	gol/source/gol.cpp	/^std::string Gol::to_string()$/;"	f	class:Gol
+top_build_prefix	gataka/Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	gataka/source/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	gataka/test/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	gataka/Makefile	/^top_builddir = .$/;"	m
+top_builddir	gataka/source/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	gataka/test/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	gataka/Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	gataka/Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	gataka/source/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	gataka/test/Makefile	/^top_srcdir = ..$/;"	m
+transform	gataka/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	gataka/source/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	gataka/test/Makefile	/^transform = $(program_transform_name)$/;"	m
+type	prueba/include/shape.h	/^	shape_type_t type; \/**< The type of the shape *\/$/;"	m	class:Shape
+usage	tools/automake/update_makefile.sh	/^usage () {$/;"	f
+usage	tools/git/add2gitignore.sh	/^usage () {$/;"	f
+usage	tools/git/clean.sh	/^usage () {$/;"	f
+usage	tools/git/synch.sh	/^usage () {$/;"	f
+usage	tools/git/update_libs.sh	/^usage () {$/;"	f
+userId	tools/atom/config.cson	/^    userId: "62f6dced-85c0-41fe-bf7f-241316b965e8"$/;"	f
+viewSizeInPixels	examples/GTKGraphicsTest.cpp	/^	private: Coords* viewSizeInPixels;$/;"	m	class:DisplayHelper	file:
+welcome	tools/atom/config.cson	/^  welcome:$/;"	f
+width	gol/include/gol.h	/^	unsigned int width, height;$/;"	m	class:Gol
+world1	gol/include/gol.h	/^	bool **world1, **world2;$/;"	m	class:Gol
+world2	gol/include/gol.h	/^	bool **world1, **world2;$/;"	m	class:Gol
+x	examples/GTKGraphicsTest.cpp	/^	public: double x;$/;"	m	class:Coords	file:
+x	gataka/source/coordinates.h	/^	std::atomic_ushort x; \/**< atomic variables *\/$/;"	m	class:Coordinates
+x	gataka/source/player.h	/^	int x; \/*< x coordinate *\/$/;"	m	class:Player
+x	gol/include/coordinates.h	/^	unsigned int x;$/;"	m	class:Coordinates
+x	prueba/include/button.h	/^	uint16_t x;        \/**< x coordinate *\/$/;"	m	class:Button
+y	examples/GTKGraphicsTest.cpp	/^	public: double y;$/;"	m	class:Coords	file:
+y	gataka/source/coordinates.h	/^	std::atomic_ushort y; \/**< atomic variables *\/$/;"	m	class:Coordinates
+y	gataka/source/player.h	/^	int y; \/* y coordinate *\/$/;"	m	class:Player
+y	gol/include/coordinates.h	/^	unsigned int y;$/;"	m	class:Coordinates
+y	prueba/include/button.h	/^	uint16_t y;        \/**< y coordinate *\/$/;"	m	class:Button
+~LTexture	examples/16_true_type_fonts/16_true_type_fonts.cpp	/^LTexture::~LTexture()$/;"	f	class:LTexture
