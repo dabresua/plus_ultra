@@ -1,5 +1,4 @@
 #include <gol.h>
-#include <coordinates.h>
 #include <iostream>
 #include <string>
 #include <thread>
@@ -155,12 +154,9 @@ int main(int argc, char* args[])
 	//Gol g(3, 10);
 	cout << "w [" << g.getW() << "] h [" << g.getH() << "]" << endl;
 
-	Coordinates c = {.x = 2, .y = 3};
-	g.set(c);
-	c.set(0,0);
-	g.set(c);
-	c.set(20-1, 30-1);
-	g.set(c);
+	g.set_cell(2,3);
+	g.set_cell(0,0);
+	g.set_cell(20-1, 30-1);
 	//cout << g.to_hex() << endl;
 	//cout << g.to_string() << endl;
 

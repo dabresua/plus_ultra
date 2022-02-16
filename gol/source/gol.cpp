@@ -13,7 +13,7 @@
 #define PIXEL_BLANK (0)
 #define CELL_SIZE (PIXEL_SIZE - 2*PIXEL_BLANK)
 
-Gol::Gol(unsigned int w, unsigned int h, rule_set_t r)
+Gol::Gol(int w, int h, rule_set_t r)
 {
 	width = w;
 	height = h;
@@ -21,17 +21,16 @@ Gol::Gol(unsigned int w, unsigned int h, rule_set_t r)
 	std::cout << "[" << width << "," << height << "]" << '\n';
 	world1 = new bool*[width];
 	world2 = new bool*[width];
-	for(unsigned int i = 0; i < width; i++) {
+	for(int i = 0; i < width; i++) {
 		world1[i] = new bool[height];
 		world2[i] = new bool[height];
 	}
 	current_world = CURRENT_WORLD_1;
-	screen = screen_gol;
 }
 
 void Gol::gc()
 {
-	for(unsigned int i = 0; i < height; i++) {
+	for(int i = 0; i < height; i++) {
 		delete[] world1[i];
 		delete[] world2[i];
 	}
@@ -39,16 +38,16 @@ void Gol::gc()
 	delete[] world2;
 }
 
-void Gol::set_or_clr(Coordinates c, bool set)
+void Gol::set_cell(int row, int col, bool set)
 {
-	if(c.x > width || c.y > height) {
-		std::cerr << "Index excedes size" << '\n';
+	if(col > width || row > height) {
+		std::cerr << "Index excess size" << '\n';
 		return;
 	}
 	if(current_world == CURRENT_WORLD_1) {
-		world1[c.x][c.y] = set;
+		world1[col][row] = set;
 	} else {
-		world2[c.x][c.y] = set;
+		world2[col][row] = set;
 	}
 }
 
@@ -56,8 +55,8 @@ std::string Gol::to_string()
 {
 	std::string str = "";
 	bool **c_world = current_world?world2:world1;
-	for (size_t i = 0; i < height; i++) {
-		for (size_t j = 0; j < width; j++) {
+	for (int i = 0; i < height; i++) {
+		for (int j = 0; j < width; j++) {
 			str+= c_world[j][i]?"x":" ";
 		}
 		str+="|\n";
@@ -81,34 +80,9 @@ void Gol::paint_screen_gol(SDL_Renderer* gRenderer)
 	}
 }
 
-void Gol::paint_screen_init(SDL_Renderer* gRenderer)
-{
-	TTF_Font* Sans = TTF_OpenFont("Sans.ttf", 24);
-	SDL_Surface* surfaceMessage = TTF_RenderText_Solid(Sans, "Press any key",
-	                                                   {0, 0, 0});
-	SDL_Texture* Message = SDL_CreateTextureFromSurface(gRenderer,
-	                                                    surfaceMessage);
-	SDL_Rect Message_rect;
-	Message_rect.x = width/2-50;
-	Message_rect.y = height/2-50;
-	Message_rect.w = 100;
-	Message_rect.h = 100;
-	SDL_RenderCopy(gRenderer, Message, NULL, &Message_rect);
-}
-
 void Gol::paint_screen(SDL_Renderer* gRenderer)
 {
-	switch (screen) {
-		case screen_init:
-			//std::cout<<"Screen init"<<std::endl;
-			paint_screen_init(gRenderer);
-			break;
-		case screen_gol:
-			//std::cout<<"Screen gol"<<std::endl;
-			paint_screen_gol(gRenderer);
-			break;
-		default: assert(false);
-	}
+	paint_screen_gol(gRenderer);
 }
 
 std::string Gol::to_hex()
@@ -121,8 +95,8 @@ std::string Gol::to_hex()
 void Gol::generate(int life)
 {
 	bool **c_world = current_world?world2:world1;
-	for (size_t i = 0; i < height; i++) {
-		for (size_t j = 0; j < width; j++) {
+	for (int i = 0; i < height; i++) {
+		for (int j = 0; j < width; j++) {
 			/* TODO: use <random> API */
 			if ((std::rand() % 100) < life) {
 				c_world[j][i] = true;
@@ -133,8 +107,7 @@ void Gol::generate(int life)
 	}
 }
 
-void Gol::inc_life(bool **c_world, unsigned int c, unsigned int r,
-                   unsigned int *life)
+void Gol::inc_life(bool **c_world, int c, int r, unsigned int *life)
 {
 	if(c_world[c][r])
 		(*life)++;
@@ -144,11 +117,11 @@ void Gol::run()
 {
 	bool **c_world = current_world?world2:world1;
 	bool **c_world2 = current_world?world1:world2;
-	for (size_t r = 0; r < height; r++) {
-		for (size_t c = 0; c < width; c++) {
+	for (int r = 0; r < height; r++) {
+		for (int c = 0; c < width; c++) {
 			//std::cout << "[" << c << "," << r << "] is " << get_status(r, c) << '\n';
-			unsigned int cell_r = r;
-			unsigned int cell_c = c;
+			int cell_r = r;
+			int cell_c = c;
 			bool lives = c_world[c][r];
 			unsigned int life = 0;
 			// TODO: export to a function
